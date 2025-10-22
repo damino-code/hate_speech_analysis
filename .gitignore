@@ -1,0 +1,136 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+.env/
+.virtualenv/
+
+# PyTorch/AI Models
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.gguf
+*.ggml
+models/
+gguf_models/
+downloaded_models/
+model_cache/
+.cache/
+
+# Large datasets (keep small samples, ignore large ones)
+processed_dataset.csv
+large_dataset.csv
+full_dataset.csv
+*.csv.gz
+*.parquet
+data/raw/
+data/processed/
+
+# Analysis results (optional - you might want to keep some)
+*_analysis_*.csv
+*_results_*.csv
+final_*_analysis.csv
+output/
+results/
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+logs/
+log/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# HuggingFace cache
+.cache/huggingface/
+.cache/transformers/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# API keys and secrets
+secrets.json
+config.json
+.secrets/
+
+# Large images/plots (keep important ones, ignore temporary)
+*.png.bak
+temp_*.png
+draft_*.png
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Documentation builds
+docs/_build/
+
+# Node.js (if you add any JS tools)
+node_modules/
+npm-debug.log*
+
+# Compiled code
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
