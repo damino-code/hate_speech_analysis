@@ -1,0 +1,73 @@
+{
+  "timestamp": "20251125_151219",
+  "total_comments": 10,
+  "averages": {
+    "sentiment": 3.2,
+    "respect": 2.0,
+    "insult": 1.0,
+    "humiliate": 1.0,
+    "status": 2.0,
+    "dehumanize": 1.0,
+    "violence": 1.1,
+    "genocide": 1.0,
+    "attack_defend": 2.1,
+    "confidence": 0.53
+  },
+  "ranges": {
+    "sentiment": [
+      3.0,
+      5.0
+    ],
+    "respect": [
+      2.0,
+      2.0
+    ],
+    "insult": [
+      1.0,
+      1.0
+    ],
+    "humiliate": [
+      1.0,
+      1.0
+    ],
+    "status": [
+      2.0,
+      2.0
+    ],
+    "dehumanize": [
+      1.0,
+      1.0
+    ],
+    "violence": [
+      1.0,
+      2.0
+    ],
+    "genocide": [
+      1.0,
+      1.0
+    ],
+    "attack_defend": [
+      1.0,
+      4.0
+    ]
+  },
+  "high_confidence_pct": 0.0,
+  "attribute_distributions": {
+    "sentiment_very_negative": 0,
+    "sentiment_negative": 0,
+    "sentiment_neutral": 9,
+    "sentiment_positive": 0,
+    "sentiment_very_positive": 1,
+    "respect_not_respectful": 0,
+    "respect_respectful": 10,
+    "insult_not_insulting": 10,
+    "insult_somewhat_not": 0,
+    "insult_somewhat_yes": 0,
+    "insult_very_insulting": 0,
+    "humiliate_no": 10,
+    "humiliate_neutral": 0,
+    "humiliate_yes": 0,
+    "attack_defend_defending": 9,
+    "attack_defend_attacking": 1
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "f1_binary": 0.6272727272727273,
+  "f1_macro": 0.3337337622888899,
+  "f1_micro": 0.41,
+  "f1_weighted": 0.3391888302508756,
+  "exact_agreement": 0.115,
+  "accuracy": 0.41,
+  "mean_abs_error": 0.811993995899136,
+  "correlation": 0.340428928559779
+}

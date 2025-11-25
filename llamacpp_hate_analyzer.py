@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 llama-cpp Hate Speech Analyzer
-Uses only llama-cpp models (Ollama or GGUF) for analysis
+Uses only GGUF models for analysis
 """
 
 import pandas as pd
@@ -10,38 +10,21 @@ from datetime import datetime
 import time
 import os
 from pathlib import Path
-
-def check_ollama():
-    """Check if Ollama is installed and has models"""
-    try:
-        import subprocess
-        result = subprocess.run(['ollama', 'list'], capture_output=True, text=True)
-        if result.returncode == 0:
-            models = result.stdout.strip()
-            if 'llama' in models.lower():
-                print("✅ Ollama found with Llama models!")
-                return True
-            else:
-                print("⚠️  Ollama found but no Llama models")
-                print("Run: ollama pull llama3.2:3b")
-                return False
-        else:
-            print("❌ Ollama not working")
-            return False
-    except:
-        print("❌ Ollama not installed")
-        return False
+import matplotlib.pyplot as plt
+import seaborn as sns
 
 def find_gguf_models():
     """Find available GGUF model files"""
     print("🔍 Looking for GGUF files...")
     gguf_paths = []
-    search_dirs = ["./gguf_models/", "~/.ollama/models/", "./"]
+    search_dirs = ["./gguf_models/", "~/.cache/huggingface/hub/", "./models/", "./"]
     
     for search_dir in search_dirs:
         path = Path(search_dir).expanduser()
         if path.exists():
             gguf_paths.extend(path.glob("*.gguf"))
+            # Also search in subdirectories for HF downloads
+            gguf_paths.extend(path.glob("**/*.gguf"))
     
     if gguf_paths:
         print(f"✅ Found {len(gguf_paths)} GGUF files")
@@ -53,31 +36,221 @@ def find_gguf_models():
         print("❌ No GGUF files found")
         return []
 
+def visualize_hate_ratings(results, filename_prefix="hate_analysis"):
+    """Create visualization of hate speech rating distribution"""
+    print("\n🎨 Creating visualization of hate rating distribution...")
+    
+    try:
+        # Extract ratings
+        ratings = [r['rating'] for r in results]
+        categories = [r['category'] for r in results]
+        confidences = [r['confidence'] for r in results]
+        
+        # Create figure with subplots
+        fig, ((ax1, ax2), (ax3, ax4)) = plt.subplots(2, 2, figsize=(18, 12))
+        
+        # Plot 1: Histogram of continuous rating distribution
+        ax1.hist(ratings, bins=20, color='skyblue', alpha=0.7, edgecolor='black', linewidth=1)
+        ax1.set_title('Continuous Rating Distribution', fontsize=14, fontweight='bold')
+        ax1.set_xlabel('Rating (0.0 = No Hate, 2.0 = Clear Hate)', fontsize=12)
+        ax1.set_ylabel('Number of Comments', fontsize=12)
+        ax1.grid(True, alpha=0.3)
+        
+        # Add vertical lines for reference points
+        ax1.axvline(x=0.5, color='green', linestyle='--', alpha=0.7, label='No Hate Threshold')
+        ax1.axvline(x=1.5, color='red', linestyle='--', alpha=0.7, label='Hate Threshold')
+        ax1.legend()
+        
+        # Plot 2: Category distribution (pie chart)
+        category_counts = {'no': 0, 'unclear': 0, 'yes': 0}
+        for cat in categories:
+            category_counts[cat] += 1
+        
+        colors = ['#28a745', '#ffc107', '#dc3545']  # Green, Yellow, Red
+        labels = ['No Hate', 'Unclear', 'Hate Speech']
+        values = [category_counts['no'], category_counts['unclear'], category_counts['yes']]
+        
+        # Only include non-zero categories
+        non_zero_indices = [i for i, v in enumerate(values) if v > 0]
+        if non_zero_indices:
+            filtered_values = [values[i] for i in non_zero_indices]
+            filtered_labels = [labels[i] for i in non_zero_indices]
+            filtered_colors = [colors[i] for i in non_zero_indices]
+            
+            wedges, texts, autotexts = ax2.pie(filtered_values, labels=filtered_labels, colors=filtered_colors, 
+                                              autopct='%1.1f%%', startangle=90, explode=[0.05]*len(filtered_values))
+            ax2.set_title('Category Distribution', fontsize=14, fontweight='bold')
+            
+            # Enhance pie chart text
+            for autotext in autotexts:
+                autotext.set_color('white')
+                autotext.set_fontweight('bold')
+                autotext.set_fontsize(10)
+        else:
+            ax2.text(0.5, 0.5, 'No data to display', ha='center', va='center', transform=ax2.transAxes)
+            ax2.set_title('Category Distribution', fontsize=14, fontweight='bold')
+        
+        # Plot 3: Rating vs Confidence scatter plot
+        scatter_colors = ['#28a745' if r < 0.5 else '#ffc107' if r < 1.5 else '#dc3545' for r in ratings]
+        ax3.scatter(ratings, confidences, c=scatter_colors, alpha=0.6, s=50, edgecolors='black', linewidth=0.5)
+        ax3.set_title('Rating vs Confidence', fontsize=14, fontweight='bold')
+        ax3.set_xlabel('Rating', fontsize=12)
+        ax3.set_ylabel('Confidence', fontsize=12)
+        ax3.grid(True, alpha=0.3)
+        ax3.set_xlim(0, 2)
+        ax3.set_ylim(0, 1)
+        
+        # Add reference lines
+        ax3.axvline(x=0.5, color='green', linestyle='--', alpha=0.5)
+        ax3.axvline(x=1.5, color='red', linestyle='--', alpha=0.5)
+        ax3.axhline(y=0.9, color='purple', linestyle='--', alpha=0.5, label='High Confidence Threshold')
+        ax3.legend()
+        
+        # Plot 4: Summary statistics table
+        ax4.axis('off')
+        
+        # Calculate statistics
+        total = len(results)
+        avg_rating = sum(ratings) / total if total > 0 else 0
+        avg_confidence = sum(confidences) / total if total > 0 else 0
+        high_conf_count = sum(1 for c in confidences if c >= 0.9)
+        
+        summary_data = [
+            ['Metric', 'Value'],
+            ['Total Comments', f'{total}'],
+            ['Average Rating', f'{avg_rating:.2f}'],
+            ['Average Confidence', f'{avg_confidence:.2f}'],
+            ['High Confidence (≥0.9)', f'{high_conf_count} ({high_conf_count/total*100:.1f}%)'],
+            ['', ''],
+            ['Category Breakdown:', ''],
+            ['No Hate', f'{category_counts["no"]} ({category_counts["no"]/total*100:.1f}%)'],
+            ['Unclear', f'{category_counts["unclear"]} ({category_counts["unclear"]/total*100:.1f}%)'],
+            ['Hate Speech', f'{category_counts["yes"]} ({category_counts["yes"]/total*100:.1f}%)'],
+            ['', ''],
+            ['Rating Range:', ''],
+            ['Minimum', f'{min(ratings):.2f}'],
+            ['Maximum', f'{max(ratings):.2f}'],
+            ['Std Deviation', f'{(sum((r - avg_rating)**2 for r in ratings) / total)**0.5:.2f}']
+        ]
+        
+        # Create table
+        table = ax4.table(cellText=summary_data, cellLoc='left', loc='center',
+                         colWidths=[0.4, 0.6])
+        table.auto_set_font_size(False)
+        table.set_fontsize(10)
+        table.scale(1, 1.5)
+        
+        # Style the table
+        for i in range(len(summary_data)):
+            for j in range(2):
+                cell = table[(i, j)]
+                if i == 0:  # Header row
+                    cell.set_facecolor('#4472C4')
+                    cell.set_text_props(weight='bold', color='white')
+                elif summary_data[i][0] in ['Category Breakdown:', 'Rating Range:']:  # Section headers
+                    cell.set_facecolor('#D9E1F2')
+                    cell.set_text_props(weight='bold')
+                elif summary_data[i][0] == '':  # Empty rows
+                    cell.set_facecolor('#FFFFFF')
+                else:
+                    cell.set_facecolor('#F2F2F2' if i % 2 == 0 else '#FFFFFF')
+        
+        ax4.set_title('Analysis Summary', fontsize=14, fontweight='bold', pad=20)
+        
+        plt.tight_layout()
+        
+        # Save the plot
+        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+        plot_filename = f"{filename_prefix}_distribution_{timestamp}.png"
+        plt.savefig(plot_filename, dpi=300, bbox_inches='tight')
+        
+        print(f"📊 Visualization saved: {plot_filename}")
+        plt.show()
+        
+        return plot_filename
+        
+    except Exception as e:
+        print(f"⚠️  Visualization failed: {e}")
+        print("Make sure matplotlib and seaborn are installed: pip install matplotlib seaborn")
+        return None
+
+def download_gguf_model():
+    """Download a GGUF model using huggingface-cli"""
+    print("🔽 DOWNLOADING GGUF MODEL")
+    print("=" * 40)
+    
+    # Create models directory
+    models_dir = Path("./gguf_models")
+    models_dir.mkdir(exist_ok=True)
+    
+    # Try to download a good balance model (Q4_K_M - 2GB)
+    model_repo = "bartowski/Llama-3.2-3B-Instruct-GGUF"
+    model_file = "Llama-3.2-3B-Instruct-Q4_K_M.gguf"
+    
+    print(f"📥 Downloading {model_file}...")
+    print(f"📦 From: {model_repo}")
+    print(f"💾 Size: ~2GB (Q4_K_M quantization)")
+    print(f"📁 To: {models_dir}/")
+    
+    try:
+        import subprocess
+        
+        cmd = [
+            "huggingface-cli", "download", 
+            model_repo,
+            "--include", model_file,
+            "--local-dir", str(models_dir)
+        ]
+        
+        print(f"\n🚀 Running: {' '.join(cmd)}")
+        result = subprocess.run(cmd, capture_output=True, text=True, timeout=300)
+        
+        if result.returncode == 0:
+            model_path = models_dir / model_file
+            if model_path.exists():
+                size_gb = model_path.stat().st_size / (1024**3)
+                print(f"✅ Download successful!")
+                print(f"📁 File: {model_path}")
+                print(f"📏 Size: {size_gb:.1f} GB")
+                return model_path
+            else:
+                print(f"❌ File not found after download: {model_path}")
+                return None
+        else:
+            print(f"❌ Download failed: {result.stderr}")
+            return None
+            
+    except subprocess.TimeoutExpired:
+        print("❌ Download timeout (5 minutes)")
+        return None
+    except FileNotFoundError:
+        print("❌ huggingface-cli not found")
+        print("💡 Install with: pip install huggingface_hub[cli]")
+        return None
+    except Exception as e:
+        print(f"❌ Download error: {e}")
+        return None
+
 def initialize_llamacpp():
     """Initialize llama-cpp with available models"""
-    print("🚀 INITIALIZING LLAMA-CPP")
+    print("🚀 INITIALIZING PURE LLAMA-CPP")
     print("=" * 40)
     
     try:
         from llama_cpp import Llama
         
-        # Option 1: Try Ollama integration
-        print("Option 1: Ollama integration")
-        if check_ollama():
-            return "ollama", None
-        
-        # Option 2: Look for GGUF files
-        print("\nOption 2: Direct GGUF models")
+        # Option 1: Look for existing GGUF files
+        print("Option 1: Looking for existing GGUF models")
         gguf_paths = find_gguf_models()
         
         if gguf_paths:
             # Use the first GGUF file found
             model_path = str(gguf_paths[0])
-            print(f"Loading: {gguf_paths[0].name}")
+            print(f"🦙 Loading: {gguf_paths[0].name}")
             
             llm = Llama(
                 model_path=model_path,
-                n_ctx=1024,
+                n_ctx=2048,  # Increased context for better analysis
                 n_threads=4,
                 verbose=False
             )
@@ -85,7 +258,24 @@ def initialize_llamacpp():
             print("✅ GGUF model loaded successfully!")
             return "gguf", llm
         
-        print("❌ No suitable models found")
+        # Option 2: Try to download a model
+        print("\nOption 2: Download GGUF model from HuggingFace")
+        downloaded_path = download_gguf_model()
+        
+        if downloaded_path:
+            print(f"🦙 Loading downloaded model: {downloaded_path.name}")
+            
+            llm = Llama(
+                model_path=str(downloaded_path),
+                n_ctx=2048,
+                n_threads=4, 
+                verbose=False
+            )
+            
+            print("✅ Downloaded GGUF model loaded successfully!")
+            return "gguf", llm
+        
+        print("❌ No GGUF models available")
         return None, None
         
     except Exception as e:
@@ -97,76 +287,139 @@ class LlamaCppHateAnalyzer:
         self.method, self.model = initialize_llamacpp()
         
         if self.method is None:
-            raise Exception("No llama-cpp models available. Please install Ollama or download GGUF models.")
+            raise Exception("No GGUF models available. Please download GGUF models.")
         
-        # Your exact prompt template
-        self.prompt_template = '''Does this comment contain hate speech, defined as "bias-motivated, hostile and malicious language targeted at a person/group because of their actual or perceived innate characteristics, especially when the group is unnecessarily labeled?
+        # Improved prompt template for better classification
+        self.prompt_template = '''Analyze this comment for hate speech. Hate speech is bias-motivated, hostile language targeting a person/group based on identity characteristics (race, religion, gender, sexuality, nationality, etc.).
 
 Comment: "{text}"
 
-Please respond with only one of these exact ratings:
-yes:2.0
-unclear:1.0  
-no:0.0
+CLASSIFICATION CRITERIA:
+ HATE SPEECH (2.0): Contains slurs, dehumanizing language, calls for violence/discrimination, or explicit hostility toward identity groups
+ BORDERLINE (1.0): Potentially offensive but unclear intent, mild stereotyping, or aggressive but not clearly targeting identity
+ NOT HATE (0.0): No targeting of identity groups, general criticism, profanity without group targeting
 
-Rating:'''
+EXAMPLES:
+- "All [group] are criminals" = 2.0 (dehumanizing stereotype)
+- "I hate [slur]" = 2.0 (explicit slur/hatred)
+- "That's kind of gay" = 1.0 (casual usage, unclear malicious intent)
+- "This politician sucks" = 0.0 (political criticism, not identity-based)
+- "Fuck this traffic" = 0.0 (general profanity, no group targeting)
 
-    def analyze_with_ollama(self, text):
-        """Use Ollama API for analysis"""
-        try:
-            import subprocess
-            
-            prompt = self.prompt_template.format(text=text[:300])
-            
-            # Use Ollama's generate command
-            cmd = ['ollama', 'generate', 'llama3.2:3b', prompt]
-            result = subprocess.run(cmd, capture_output=True, text=True, timeout=60)
-            
-            if result.returncode == 0:
-                response = result.stdout.strip().lower()
-                
-                # Parse response
-                if "yes:2.0" in response or "2.0" in response:
-                    rating, category = 2.0, "yes"
-                elif "unclear:1.0" in response or "1.0" in response:
-                    rating, category = 1.0, "unclear"
-                else:
-                    rating, category = 0.0, "no"
-                
-                return {
-                    "rating": rating,
-                    "category": category,
-                    "confidence": 0.85,
-                    "method": "ollama",
-                    "response": response[:50],
-                    "text": text[:100] + "..." if len(text) > 100 else text
-                }
-            else:
-                raise Exception(f"Ollama error: {result.stderr}")
-                
-        except Exception as e:
-            raise Exception(f"Ollama analysis failed: {e}")
+Respond with ONLY:
+RATING: [0.0, 1.0, or 2.0]
+CONFIDENCE: [0.1 to 1.0]
+
+Be decisive - avoid middle ratings unless truly ambiguous.'''
 
     def analyze_with_gguf(self, text):
-        """Use direct GGUF model"""
+        """Use direct GGUF model with improved confidence-based float ratings"""
         try:
             prompt = self.prompt_template.format(text=text[:300])
             
-            response = self.model(prompt, max_tokens=15, temperature=0.1)
+            response = self.model(prompt, max_tokens=80, temperature=0.1)
             output = response['choices'][0]['text'].strip().lower()
             
-            # Parse response
-            if "yes:2.0" in output or "2.0" in output:
-                rating, category = 2.0, "yes"
-            elif "unclear:1.0" in output or "1.0" in output:
-                rating, category = 1.0, "unclear"
+            # Parse rating and confidence from response
+            rating = 0.0
+            confidence = 0.7  # Default reasonable confidence
+            
+            # Extract rating - try multiple patterns
+            import re
+            
+            # Look for "RATING: X.X" format (new prompt)
+            rating_match = re.search(r'rating:\s*([0-2]\.?[0-9]*)', output)
+            if rating_match:
+                rating = float(rating_match.group(1))
+                rating = max(0.0, min(2.0, rating))
             else:
-                rating, category = 0.0, "no"
+                # Fallback: look for just numbers
+                number_match = re.search(r'\b([0-2]\.?[0-9]*)\b', output)
+                if number_match:
+                    potential_rating = float(number_match.group(1))
+                    if 0.0 <= potential_rating <= 2.0:
+                        rating = potential_rating
+                else:
+                    # Content-based fallback with more decisive logic
+                    hate_indicators = ['hate speech', 'clear hate', 'explicit', 'slur', 'dehumanizing', 'violence']
+                    no_hate_indicators = ['no hate', 'not hate', 'general', 'criticism', 'profanity without']
+                    
+                    if any(indicator in output for indicator in hate_indicators):
+                        rating = 2.0
+                        confidence = 0.8
+                    elif any(indicator in output for indicator in no_hate_indicators):
+                        rating = 0.0  
+                        confidence = 0.8
+                    else:
+                        # Check the actual content for obvious cases
+                        text_lower = text.lower()
+                        obvious_slurs = ['nigger', 'nigga', 'faggot', 'tranny', 'kike', 'spic']
+                        hate_phrases = ['hate', 'kill all', 'deport them all']
+                        
+                        if any(slur in text_lower for slur in obvious_slurs):
+                            rating = 2.0
+                            confidence = 0.9
+                        elif any(phrase in text_lower for phrase in hate_phrases):
+                            rating = 1.8
+                            confidence = 0.8
+                        else:
+                            rating = 0.3  # Slight uncertainty, but lean toward no hate
+                            confidence = 0.6
+            
+            # Extract confidence
+            confidence_match = re.search(r'confidence:\s*([0-9.]+)', output)
+            if confidence_match:
+                confidence = float(confidence_match.group(1))
+                confidence = max(0.1, min(1.0, confidence))
+            
+            # Determine initial classification (yes/no/unclear)
+            initial_classification = "unclear"
+            if rating >= 1.5:
+                initial_classification = "yes"
+            elif rating <= 0.5:
+                initial_classification = "no"
+            
+            # Apply confidence-based adjustment ONLY if confidence < 0.9
+            if confidence < 0.9:
+                if initial_classification == "yes":
+                    # For hate speech with low confidence: rating between 1.0 and 2.0
+                    # Lower confidence = closer to 1.0, higher confidence = closer to 2.0
+                    confidence_factor = confidence / 0.9  # 0.0 to 1.0 scale
+                    rating = 1.0 + confidence_factor * 1.0  # Maps to 1.0-2.0 range
+                    
+                elif initial_classification == "no":
+                    # For no hate with low confidence: rating between 0.0 and 1.0
+                    # Lower confidence = closer to 1.0, higher confidence = closer to 0.0
+                    confidence_factor = confidence / 0.9  # 0.0 to 1.0 scale
+                    rating = 1.0 - confidence_factor * 1.0  # Maps to 1.0-0.0 range
+                    
+                else:  # unclear cases
+                    # For unclear cases: keep original rating but ensure it's between 0.8 and 1.2
+                    rating = max(0.8, min(1.2, rating))
+            else:
+                # High confidence: use discrete values
+                if rating >= 1.5:
+                    rating = 2.0
+                elif rating <= 0.5:
+                    rating = 0.0
+                else:
+                    rating = 1.0
+            
+            # Ensure rating stays within bounds
+            rating = max(0.0, min(2.0, rating))
+            
+            # Determine final category based on adjusted rating
+            if rating >= 1.5:
+                category = "yes"
+            elif rating >= 0.5:
+                category = "unclear"  
+            else:
+                category = "no"
             
             return {
-                "rating": rating,
+                "rating": round(rating, 2),
                 "category": category,
-                "confidence": 0.9,
+                "confidence": round(confidence, 2),
                 "method": "gguf",
                 "response": output[:50],
                 "text": text[:100] + "..." if len(text) > 100 else text
@@ -180,12 +433,10 @@ Rating:'''
         if len(text.strip()) < 10:
             raise Exception("Text too short for analysis")
         
-        if self.method == "ollama":
-            return self.analyze_with_ollama(text)
-        elif self.method == "gguf":
+        if self.method == "gguf":
             return self.analyze_with_gguf(text)
         else:
-            raise Exception("No analysis method available")
+            raise Exception("No GGUF model available")
 
     def analyze_dataset(self, n_samples=200):
         """Analyze your hate speech dataset"""
@@ -194,17 +445,17 @@ Rating:'''
         print("=" * 50)
         
         try:
-            # Load your dataset
-            df = pd.read_csv("processed_dataset.csv")
-            print(f"📊 Loaded {len(df):,} comments")
+            # Load selected high-variance comments
+            df = pd.read_csv("selected_comments.csv")
+            print(f"📊 Loaded {len(df):,} selected high-variance comments")
             
-            # Sample
-            if len(df) > n_samples:
+            # Use all selected comments (they're already curated)
+            if n_samples and len(df) > n_samples:
                 df_sample = df.sample(n=n_samples, random_state=42)
+                print(f"🎯 Analyzing {len(df_sample)} of the selected comments...")
             else:
                 df_sample = df
-            
-            print(f"🎯 Analyzing {len(df_sample)} comments with {self.method}...")
+                print(f"🎯 Analyzing all {len(df_sample)} selected high-variance comments...")
             
             results = []
             errors = []
@@ -260,6 +511,9 @@ Rating:'''
             print(f"❌ Errors: {len(errors)}")
             print(f"💾 Results saved: {filename}")
             
+            # Create visualization
+            plot_file = visualize_hate_ratings(results, "llamacpp_hate_analysis")
+            
             # Show examples
             print(f"\n📝 Sample Results:")
             for rating, label, emoji in [(2.0, "Hate", "🔴"), (1.0, "Unclear", "🟡"), (0.0, "No Hate", "🟢")]:
@@ -268,7 +522,7 @@ Rating:'''
                     print(f"\n{emoji} {label}:")
                     for ex in examples:
                         text_preview = ex['text'][:60] + "..." if len(ex['text']) > 60 else ex['text']
-                        method_icon = "🦙" if self.method == "ollama" else "🤖"
+                        method_icon = "�"  # GGUF only
                         print(f"  {method_icon} '{text_preview}' (conf: {ex['confidence']:.1%})")
             
             return results
@@ -279,21 +533,32 @@ Rating:'''
 
 def show_setup_instructions():
     """Show setup instructions for llama-cpp"""
-    print("\n💡 SETUP INSTRUCTIONS")
-    print("=" * 40)
-    print("\nTo use this analyzer, you need either:")
-    print("\n1. OLLAMA (Recommended - Easy)")
-    print("   • Download from: https://ollama.ai/")
-    print("   • Install and run: ollama pull llama3.2:3b")
-    print("   • Works immediately with this script")
-    print("\n2. GGUF MODEL FILES")
-    print("   • Download from: https://huggingface.co/microsoft/Llama-3.2-3B-GGUF")
-    print("   • Place .gguf files in: ./gguf_models/")
-    print("   • Script will automatically detect and use them")
-    print("\n3. REQUIREMENTS")
+    print("\n💡 PURE LLAMA-CPP SETUP INSTRUCTIONS")
+    print("=" * 50)
+    print("\nTo use this analyzer, you need GGUF model files:")
+    print("\n🔥 AUTOMATIC DOWNLOAD (Recommended)")
+    print("   • This script can download models automatically!")
+    print("   • Uses: bartowski/Llama-3.2-3B-Instruct-GGUF")
+    print("   • Model: Q4_K_M quantization (~2GB)")
+    print("   • Requires: pip install huggingface_hub[cli]")
+    print("\n📁 MANUAL GGUF DOWNLOAD")
+    print("   • Visit: https://huggingface.co/bartowski/Llama-3.2-3B-Instruct-GGUF")
+    print("   • Download any .gguf file (Q4_K_M recommended)")
+    print("   • Place in: ./gguf_models/")
+    print("   • Script will auto-detect and use them")
+    print("\n✅ REQUIREMENTS")
     print("   • llama-cpp-python (already installed)")
     print("   • pandas (already installed)")
+    print("   • huggingface_hub[cli] for auto-download")
     print("   • Your processed_dataset.csv file")
+    
+    print("\n💾 STORAGE REQUIREMENTS")
+    print("   • Q4_K_M: ~2.0 GB (recommended balance)")
+    print("   • Q4_K_S: ~1.9 GB (smaller, slight quality loss)")  
+    print("   • Q6_K: ~2.6 GB (higher quality)")
+    print("   • Q8_0: ~3.4 GB (highest quality)")
+    
+    print("\n🎯 PURE LLAMA-CPP = No Ollama needed!")
 
 def main():
     print("🎯 LLAMA-CPP HATE SPEECH ANALYZER")
