@@ -1,0 +1,79 @@
+{
+  "timestamp": "20251202_142602",
+  "analysis_file": "vanilla_analysis_20251202_140737.csv",
+  "analysis_type": "vanilla",
+  "metrics": {
+    "sentiment": {
+      "accuracy": 0.275,
+      "f1_macro": 0.10784313725490197,
+      "f1_weighted": 0.11862745098039217,
+      "mae": 0.8772780391743842,
+      "n_samples": 200,
+      "n_classes": 5
+    },
+    "respect": {
+      "accuracy": 0.13,
+      "f1_macro": 0.11504424778761062,
+      "f1_weighted": 0.031061946902654868,
+      "mae": 1.6081363948116023,
+      "n_samples": 200,
+      "n_classes": 2
+    },
+    "insult": {
+      "accuracy": 0.22,
+      "f1_macro": 0.09016393442622951,
+      "f1_weighted": 0.08114754098360656,
+      "mae": 1.8007055900316526,
+      "n_samples": 200,
+      "n_classes": 4
+    },
+    "humiliate": {
+      "accuracy": 0.25,
+      "f1_macro": 0.13333333333333333,
+      "f1_weighted": 0.1,
+      "mae": 1.5781393069618332,
+      "n_samples": 200,
+      "n_classes": 3
+    },
+    "status": {
+      "accuracy": 0.015,
+      "f1_macro": 0.014778325123152709,
+      "f1_weighted": 0.0004433497536945813,
+      "mae": 1.195987262653533,
+      "n_samples": 200,
+      "n_classes": 2
+    },
+    "dehumanize": {
+      "accuracy": 0.425,
+      "f1_macro": 0.2982456140350877,
+      "f1_weighted": 0.2535087719298246,
+      "mae": 1.1317985257788095,
+      "n_samples": 200,
+      "n_classes": 2
+    },
+    "violence": {
+      "accuracy": 0.775,
+      "f1_macro": 0.43661971830985913,
+      "f1_weighted": 0.6767605633802816,
+      "mae": 0.8482469580134849,
+      "n_samples": 200,
+      "n_classes": 2
+    },
+    "genocide": {
+      "accuracy": 0.89,
+      "f1_macro": 0.4708994708994709,
+      "f1_weighted": 0.8382010582010581,
+      "mae": 0.8477651580899912,
+      "n_samples": 200,
+      "n_classes": 2
+    },
+    "attack_defend": {
+      "accuracy": 0.25,
+      "f1_macro": 0.1,
+      "f1_weighted": 0.1,
+      "mae": 0.9649249656739548,
+      "n_samples": 200,
+      "n_classes": 4
+    }
+  }
+}

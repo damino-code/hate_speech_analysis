@@ -16,14 +16,14 @@ import json
 
 def load_latest_analysis():
     """Find and load the latest multi-attribute analysis CSV"""
-    files = glob.glob("multi_attribute_analysis_*.csv")
+    files = glob.glob("annotator_role_christian_conservative_*.csv")
     if not files:
         print("❌ No multi-attribute analysis files found.")
-        return None
+        return None, None
     
     latest_file = max(files, key=os.path.getctime)
     print(f"📄 Loading latest analysis: {latest_file}")
-    return pd.read_csv(latest_file)
+    return pd.read_csv(latest_file), latest_file
 
 def load_ground_truth():
     """Load the processed dataset with human ratings for all attributes"""
@@ -248,26 +248,74 @@ def calculate_classification_metrics(merged_df):
     
     return results
 
-def save_detailed_metrics(metrics_results):
-    """Save detailed metrics to JSON file"""
+def save_detailed_metrics(metrics_results, analysis_file=None):
+    """Save detailed metrics to JSON file with appropriate naming based on dataset type"""
     print("\n💾 Saving detailed metrics...")
     
     from datetime import datetime
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    filename = f"multiattribute_metrics_{timestamp}.json"
+    
+    # Determine filename and metric prefix based on analysis type
+    if analysis_file and 'likert' in analysis_file.lower():
+        filename = f"likert_metrics_{timestamp}.json"
+        metric_prefix = "likert"
+    elif analysis_file and 'vanilla' in analysis_file.lower():
+        filename = f"vanilla_metrics_{timestamp}.json"
+        metric_prefix = "vanilla"
+    elif analysis_file and 'annotator_role' in analysis_file.lower():
+        # Extract profile name if available
+        if '_male_basic_' in analysis_file:
+            filename = f"annotator_role_male_basic_metrics_{timestamp}.json"
+            metric_prefix = "annotator_role_male_basic"
+        elif '_female_basic_' in analysis_file:
+            filename = f"annotator_role_female_basic_metrics_{timestamp}.json"
+            metric_prefix = "annotator_role_female_basic"
+        elif '_young_white_male_' in analysis_file:
+            filename = f"annotator_role_young_white_male_metrics_{timestamp}.json"
+            metric_prefix = "annotator_role_young_white_male"
+        elif '_middle_black_female_' in analysis_file:
+            filename = f"annotator_role_middle_black_female_metrics_{timestamp}.json"
+            metric_prefix = "annotator_role_middle_black_female"
+        elif '_older_asian_male_' in analysis_file:
+            filename = f"annotator_role_older_asian_male_metrics_{timestamp}.json"
+            metric_prefix = "annotator_role_older_asian_male"
+        elif '_christian_conservative_' in analysis_file:
+            filename = f"annotator_role_christian_conservative_metrics_{timestamp}.json"
+            metric_prefix = "annotator_role_christian_conservative"
+        elif '_muslim_moderate_' in analysis_file:
+            filename = f"annotator_role_muslim_moderate_metrics_{timestamp}.json"
+            metric_prefix = "annotator_role_muslim_moderate"
+        elif '_jewish_liberal_' in analysis_file:
+            filename = f"annotator_role_jewish_liberal_metrics_{timestamp}.json"
+            metric_prefix = "annotator_role_jewish_liberal"
+        elif '_atheist_liberal_' in analysis_file:
+            filename = f"annotator_role_atheist_liberal_metrics_{timestamp}.json"
+            metric_prefix = "annotator_role_atheist_liberal"
+        elif '_comprehensive_diverse_' in analysis_file:
+            filename = f"annotator_role_comprehensive_diverse_metrics_{timestamp}.json"
+            metric_prefix = "annotator_role_comprehensive_diverse"
+        else:
+            filename = f"annotator_role_metrics_{timestamp}.json"
+            metric_prefix = "annotator_role"
+    else:
+        filename = f"multiattribute_metrics_{timestamp}.json"
+        metric_prefix = "standard"
     
     # Convert numpy types to Python types for JSON serialization
     json_data = {
         'timestamp': timestamp,
+        'analysis_file': analysis_file if analysis_file else 'unknown',
+        'analysis_type': metric_prefix,
         'metrics': {}
     }
     
     for attr_name, metrics in metrics_results.items():
+        # Use the metric prefix in the keys
         json_data['metrics'][attr_name] = {
-            'accuracy': float(metrics['accuracy']),
-            'f1_macro': float(metrics['f1_macro']),
-            'f1_weighted': float(metrics['f1_weighted']),
-            'mae': float(metrics['mae']),
+            f'{metric_prefix}_accuracy': float(metrics['accuracy']),
+            f'{metric_prefix}_f1_macro': float(metrics['f1_macro']),
+            f'{metric_prefix}_f1_weighted': float(metrics['f1_weighted']),
+            f'{metric_prefix}_mae': float(metrics['mae']),
             'n_samples': int(metrics['n_samples']),
             'n_classes': int(metrics['n_classes'])
         }
@@ -276,37 +324,11 @@ def save_detailed_metrics(metrics_results):
         json.dump(json_data, f, indent=2)
     
     print(f"✅ Detailed metrics saved: {filename}")
-    return filename
-    """Save detailed metrics to JSON file"""
-    print("\n💾 Saving detailed metrics...")
-    
-    from datetime import datetime
-    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    filename = f"multiattribute_metrics_{timestamp}.json"
-    
-    # Prepare data for JSON serialization
-    json_data = {
-        'timestamp': timestamp,
-        'attributes': results,
-        'summary': {
-            'total_attributes': len(results),
-            'avg_binary_f1': np.mean([r['binary_f1'] for r in results.values()]),
-            'avg_binary_accuracy': np.mean([r['binary_accuracy'] for r in results.values()]),
-            'avg_multiclass_f1': np.mean([r['multiclass_f1'] for r in results.values()]),
-            'avg_multiclass_accuracy': np.mean([r['multiclass_accuracy'] for r in results.values()]),
-            'best_f1_attribute': max(results.keys(), key=lambda x: results[x]['binary_f1']),
-            'worst_f1_attribute': min(results.keys(), key=lambda x: results[x]['binary_f1'])
-        }
-    }
-    
-    with open(filename, 'w') as f:
-        json.dump(json_data, f, indent=2)
-    
-    print(f"✅ Detailed metrics saved: {filename}")
-    return filename
+    print(f"📊 Metric names prefixed with: {metric_prefix}_")
+    return filename, metric_prefix
 
-def visualize_correlations(merged_df, correlations):
-    """Create visualization of correlations"""
+def visualize_correlations(merged_df, correlations, metric_prefix="standard"):
+    """Create visualization of correlations with appropriate naming"""
     print("\n🎨 Creating correlation visualization...")
     
     plt.figure(figsize=(12, 8))
@@ -330,7 +352,9 @@ def visualize_correlations(merged_df, correlations):
     plt.title('Correlation Matrix: LLaMA Attributes vs Human Hate Speech', fontsize=14)
     plt.tight_layout()
     
-    filename = "multi_attribute_correlation_matrix.png"
+    from datetime import datetime
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    filename = f"{metric_prefix}_correlation_matrix_{timestamp}.png"
     plt.savefig(filename, dpi=300)
     print(f"📊 Saved correlation matrix: {filename}")
     
@@ -350,16 +374,18 @@ def visualize_correlations(merged_df, correlations):
             axes[i].set_ylabel(f'LLM {attr.title()}')
     
     plt.tight_layout()
-    scatter_filename = "multi_attribute_scatter_plots.png"
+    scatter_filename = f"{metric_prefix}_scatter_plots_{timestamp}.png"
     plt.savefig(scatter_filename, dpi=300)
     print(f"📊 Saved scatter plots: {scatter_filename}")
+    
+    return filename, scatter_filename
 
 def main():
     print("🎯 MULTI-ATTRIBUTE EVALUATION")
     print("=" * 60)
     
     # Load data
-    analysis_df = load_latest_analysis()
+    analysis_df, analysis_file = load_latest_analysis()
     if analysis_df is None:
         return
         
@@ -404,15 +430,15 @@ def main():
     # Calculate F1 scores and accuracy metrics
     metrics_results = calculate_classification_metrics(merged_df)
     
-    # Save detailed metrics
-    metrics_file = save_detailed_metrics(metrics_results)
+    # Save detailed metrics with appropriate filename and get metric_prefix
+    metrics_file, metric_prefix = save_detailed_metrics(metrics_results, analysis_file)
     
-    # Visualize
-    visualize_correlations(merged_df, correlations)
+    # Visualize with appropriate naming
+    corr_matrix_file, scatter_plots_file = visualize_correlations(merged_df, correlations, metric_prefix)
     
     print(f"\n✅ Evaluation complete!")
     print(f"📁 Metrics saved: {metrics_file}")
-    print(f"📁 Visualizations: multi_attribute_correlation_matrix.png, multi_attribute_scatter_plots.png")
+    print(f"📁 Visualizations: {corr_matrix_file}, {scatter_plots_file}")
 
 if __name__ == "__main__":
     main()

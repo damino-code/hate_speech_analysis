@@ -1,0 +1,389 @@
+sentiment,respect,insult,humiliate,status,dehumanize,violence,genocide,attack_defend,confidence,prompt_type,annotator_profile_id,annotator_gender,annotator_description,raw_output,text,comment_id,index,profile_id
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,male_basic,male,Male annotator,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a default rating for each attribute. 
+
+default ratings:
+1. sentiment: 3
+2. respect: 2
+3. insult: 1
+4. humiliate: 1
+5. status: 2
+6. ",,41924,95,male_basic
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,male_basic,male,Male annotator,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i'll provide a default response.
+
+3 2 1 1 2 1 1 1 3 0.8
+
+please note that the analysis is subjective and may vary based on individual perspectives",,8369,15,male_basic
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,male_basic,male,Male annotator,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i'll provide a default response.
+
+3 2 1 1 2 1 1 1 3 0.8
+
+please note that the comment is empty, so the analysis is based on the absence of content",,28621,30,male_basic
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,male_basic,male,Male annotator,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a default rating for each attribute. 
+
+default ratings:
+1. sentiment: 3
+2. respect: 2
+3. insult: 1
+4. humiliate: 1
+5. status: 2
+6. ",,20061,158,male_basic
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,male_basic,male,Male annotator,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so the analysis will be based on the context provided. 
+
+please note that the comment is empty, so the analysis will be based on the context provided",,21275,128,male_basic
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,male_basic,male,Male annotator,"3 2 1 1 2 1 1 1 3 0.8
+
+explanation: 
+- sentiment: the comment is neutral as it does not express any strong emotions.
+- respect: the comment is somewhat respectful as it does not contain any derogatory",,21406,115,male_basic
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,male_basic,male,Male annotator,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i'll provide a default response.
+
+3 2 1 1 2 1 1 1 3 0.8
+
+please note that the comment is empty, so i'll provide a default response. the ratings pr",,13674,69,male_basic
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,male_basic,male,Male annotator,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a default rating for each attribute.
+
+ratings: 3 2 1 1 2 1 1 1 3 0.8
+
+please note that the absence of content in the comment makes ",,28486,170,male_basic
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,male_basic,male,Male annotator,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a default rating for each attribute. 
+1. sentiment: 3 (neutral)
+2. respect: 2 (respectful)
+3. insult: 1 (not insulting)
+4. humiliat",,32127,174,male_basic
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,male_basic,male,Male annotator,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a default rating for each attribute. 
+
+default ratings:
+1. sentiment: 3
+2. respect: 2
+3. insult: 1
+4. humiliate: 1
+5. status: 2
+6. ",,20018,45,male_basic
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,male_basic,male,Male annotator,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i'll provide a default response.
+
+3 2 1 1 2 1 1 1 3 0.8
+
+please note that the analysis is subjective and may vary based on individual perspectives",,16493,66,male_basic
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,male_basic,male,Male annotator,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a default rating for each attribute. 
+
+default ratings:
+1. sentiment: 3
+2. respect: 2
+3. insult: 1
+4. humiliate: 1
+5. status: 2
+6. ",,38354,182,male_basic
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,male_basic,male,Male annotator,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so the analysis will be based on the context provided. 
+
+please note that the comment is empty, so i will analyze the context provided. 
+
+based on th",,20054,165,male_basic
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,male_basic,male,Male annotator,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a default rating for each attribute. 
+
+default ratings:
+1. sentiment: 3
+2. respect: 2
+3. insult: 1
+4. humiliate: 1
+5. status: 2
+6. ",,31779,78,male_basic
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,male_basic,male,Male annotator,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a default rating for each attribute. 
+1. sentiment: 3 (neutral)
+2. respect: 2 (respectful)
+3. insult: 1 (not insulting)
+4. humiliat",,2317,186,male_basic
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,male_basic,male,Male annotator,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i'll provide a default response.
+
+3 2 1 1 2 1 1 1 3 0.8
+
+please note that the comment is empty, so i'll provide a default response. the ratings pr",,48434,177,male_basic
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,male_basic,male,Male annotator,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i'll provide a general analysis based on the context of the comment being empty.
+
+based on the context, i would rate the comment as neutral, respe",,43793,56,male_basic
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,male_basic,male,Male annotator,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a default rating for each attribute. 
+
+default ratings:
+1. sentiment: 3
+2. respect: 2
+3. insult: 1
+4. humiliate: 1
+5. status: 2
+6. ",,28929,152,male_basic
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,male_basic,male,Male annotator,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i'll provide a default response.
+
+3 2 1 1 2 1 1 1 3 0.8
+
+please note that the analysis is subjective and may vary based on individual perspectives",,2952,82,male_basic
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,male_basic,male,Male annotator,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i'll provide a default response.
+
+3 2 1 1 2 1 1 1 3 0.8
+
+please note that the comment is empty, so i'll provide a default response. the default re",,20055,68,male_basic
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,male_basic,male,Male annotator,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i'll provide a default response.
+
+3 2 1 1 2 1 1 1 3 0.8
+
+please note that the comment is empty, so i'll provide a default response. the ratings pr",,43442,124,male_basic
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,male_basic,male,Male annotator,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i'll provide a general analysis based on the context of the comment being empty.
+
+based on the context, i would rate the comment as neutral, as it",,20043,16,male_basic
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,male_basic,male,Male annotator,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i'll provide a default response.
+
+3 2 1 1 2 1 1 1 3 0.8
+
+please note that the analysis is subjective and may vary based on individual perspectives",,31411,148,male_basic
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,male_basic,male,Male annotator,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a default response.
+
+rating: 3 2 1 1 2 1 1 1 3 0.8
+
+please note that the analysis is subjective and may vary based on individual pe",,17157,93,male_basic
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,male_basic,male,Male annotator,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i'll provide a default response.
+
+3 2 1 1 2 1 1 1 3 0.8
+
+please note that the analysis is subjective and may vary based on individual perspectives",,8041,65,male_basic
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,male_basic,male,Male annotator,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i'll provide a default response.
+
+3 2 1 1 2 1 1 1 3 0.8
+
+please note that the comment is empty, so i'll provide a default response. the ratings pr",,20005,60,male_basic
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,male_basic,male,Male annotator,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i'll provide a default response.
+
+3 2 1 1 2 1 1 1 3 0.8
+
+please note that the comment is empty, so i'll provide a default response. the ratings pr",,18090,84,male_basic
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,male_basic,male,Male annotator,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i'll provide a default response.
+
+3 2 1 1 2 1 1 1 3 0.8
+
+please note that the comment is empty, so i'll provide a default response. the ratings pr",,20057,67,male_basic
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,male_basic,male,Male annotator,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i'll provide a default response.
+
+3 2 1 1 2 1 1 1 3 0.8
+
+please note that the analysis is subjective and may vary based on individual perspectives",,16178,125,male_basic
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,male_basic,male,Male annotator,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a default rating for each attribute. 
+
+default ratings: 
+1. sentiment: 3
+2. respect: 2
+3. insult: 1
+4. humiliate: 1
+5. status: 2
+6.",,20045,132,male_basic
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,male_basic,male,Male annotator,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a default rating for each attribute. 
+
+default ratings:
+1. sentiment: 3 (neutral)
+2. respect: 2 (respectful)
+3. insult: 1 (not insu",,20070,9,male_basic
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,male_basic,male,Male annotator,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a default rating for each attribute. 
+
+default ratings:
+1. sentiment: 3 (neutral)
+2. respect: 2 (respectful)
+3. insult: 1 (not insu",,20004,18,male_basic
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,male_basic,male,Male annotator,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a default rating for each attribute. 
+
+default ratings:
+1. sentiment: 3
+2. respect: 2
+3. insult: 1
+4. humiliate: 1
+5. status: 2
+6. ",,42704,55,male_basic
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,male_basic,male,Male annotator,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a default rating for each attribute. 
+
+default ratings:
+1. sentiment: 3
+2. respect: 2
+3. insult: 1
+4. humiliate: 1
+5. status: 2
+6. ",,10476,75,male_basic
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,male_basic,male,Male annotator,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a default rating for each attribute. 
+
+default ratings:
+1. sentiment: 3
+2. respect: 2
+3. insult: 1
+4. humiliate: 1
+5. status: 2
+6. ",,6827,150,male_basic
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,male_basic,male,Male annotator,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a default rating for each attribute. 
+
+default ratings: 
+1. sentiment: 3
+2. respect: 2
+3. insult: 1
+4. humiliate: 1
+5. status: 2
+6.",,23517,104,male_basic
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,male_basic,male,Male annotator,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a default response.
+
+3 2 1 1 2 1 1 1 3 0.8
+
+please note that the analysis is subjective and may vary based on individual perspectiv",,20088,135,male_basic
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,male_basic,male,Male annotator,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a default response.
+
+3 2 1 1 2 1 1 1 3 0.8
+
+please note that the comment is empty, so i would expect a default response. the provid",,18346,137,male_basic
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,male_basic,male,Male annotator,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so the analysis will be based on the context provided. 
+
+please note that the comment is empty, so i will provide a general analysis based on the con",,20025,164,male_basic
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,male_basic,male,Male annotator,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i'll provide a general analysis based on the context of the comment being empty.
+
+based on the context, i would rate the comment as neutral, as it",,2747,76,male_basic
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,male_basic,male,Male annotator,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i'll provide a default response.
+
+3 2 1 1 2 1 1 1 3 0.8
+
+please note that the comment is empty, so i'll provide a default response. the ratings pr",,30261,79,male_basic
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,male_basic,male,Male annotator,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i'll provide a default response.
+
+3 2 1 1 2 1 1 1 3 0.8
+
+please note that the analysis is subjective and may vary based on individual perspectives",,13734,197,male_basic
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,male_basic,male,Male annotator,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a default rating for each attribute. 
+
+default ratings:
+1. sentiment: 3
+2. respect: 2
+3. insult: 1
+4. humiliate: 1
+5. status: 2
+6. ",,34899,38,male_basic
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,male_basic,male,Male annotator,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a default response.
+
+3 2 1 1 2 1 1 1 3 0.8
+
+please note that the analysis is subjective and may vary based on individual perspectiv",,19815,24,male_basic
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,male_basic,male,Male annotator,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a default response.
+
+3 2 1 1 2 1 1 1 3 0.8
+
+please note that the analysis is subjective and may vary based on individual perspectiv",,26493,122,male_basic
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,male_basic,male,Male annotator,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i'll provide a default response.
+
+3 2 1 1 2 1 1 1 3 0.8
+
+please note that the analysis is subjective and may vary based on individual perspectives",,39511,195,male_basic
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,male_basic,male,Male annotator,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so the analysis will be based on the context provided. 
+
+please note that the comment is empty, so the analysis will be based on the context provided",,20016,29,male_basic
+3.0,2.0,2.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,male_basic,male,Male annotator,"3 2 2 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i'll provide a default response.
+
+3 2 2 1 2 1 1 1 3 0.8
+
+please note that the analysis is subjective and may vary based on individual perspectives",,20048,19,male_basic
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,male_basic,male,Male annotator,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a default rating for each attribute. 
+
+default ratings:
+1. sentiment: 3
+2. respect: 2
+3. insult: 1
+4. humiliate: 1
+5. status: 2
+6. ",,1645,143,male_basic
+3.0,2.0,3.0,2.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,male_basic,male,Male annotator,"3 2 3 2 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a hypothetical analysis for demonstration purposes.
+
+for demonstration purposes, let's assume the comment is: ""this is the worst co",,39711,86,male_basic

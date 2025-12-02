@@ -1,0 +1,320 @@
+sentiment,respect,insult,humiliate,status,dehumanize,violence,genocide,attack_defend,confidence,prompt_type,annotator_profile_id,annotator_gender,annotator_age,annotator_race,annotator_education,annotator_description,raw_output,text,comment_id,index,profile_id
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,older_asian_male,male,60 years old,Asian,High school,Older Asian male with high school education,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a hypothetical example of a comment that might elicit these ratings.
+
+example comment: ""this is the worst content ever. you're a to",,41924,95,older_asian_male
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,older_asian_male,male,60 years old,Asian,High school,Older Asian male with high school education,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is blank, so i will provide a hypothetical example of a comment that would receive these ratings.
+
+example comment: ""you're a terrible person for not liking my",,8369,15,older_asian_male
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,older_asian_male,male,60 years old,Asian,High school,Older Asian male with high school education,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a default rating for each attribute. 
+
+default ratings:
+1. sentiment: 3
+2. respect: 2
+3. insult: 1
+4. humiliate: 1
+5. status: 2
+6. ",,28621,30,older_asian_male
+2.0,1.5,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,older_asian_male,male,60 years old,Asian,High school,Older Asian male with high school education,"2 3 1 1 2 1 1 1 3 0.8
+explanation: 
+1. sentiment: the comment is neutral, neither positive nor negative.
+2. respect: the comment is somewhat respectful, but lacks a clear tone.
+3. insult: the comment ",,20061,158,older_asian_male
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,older_asian_male,male,60 years old,Asian,High school,Older Asian male with high school education,"3 2 1 1 2 1 1 1 3 0.8
+please note that the comment is empty, so i will provide a hypothetical example for demonstration purposes.
+
+example:
+comment: ""i don't like your post. it's stupid and i'm better",,21275,128,older_asian_male
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,older_asian_male,male,60 years old,Asian,High school,Older Asian male with high school education,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a general analysis based on the attributes.
+
+based on the comment being empty, i would rate it as follows:
+
+1. sentiment: 5 (very p",,21406,115,older_asian_male
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,older_asian_male,male,60 years old,Asian,High school,Older Asian male with high school education,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so the analysis will be based on the context provided. 
+
+please note that the comment is empty, but i'll provide an analysis based on the context. 
+
+",,13674,69,older_asian_male
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,older_asian_male,male,60 years old,Asian,High school,Older Asian male with high school education,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a hypothetical example for demonstration purposes. here's an example comment: ""i'm so tired of this company's poor customer service",,28486,170,older_asian_male
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,older_asian_male,male,60 years old,Asian,High school,Older Asian male with high school education,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a default rating for each attribute. 
+
+default ratings:
+1. sentiment: 3
+2. respect: 2
+3. insult: 1
+4. humiliate: 1
+5. status: 2
+6. ",,32127,174,older_asian_male
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,older_asian_male,male,60 years old,Asian,High school,Older Asian male with high school education,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a rating for each attribute based on the context of the analysis. 
+
+please note that the rating scale for some attributes (e.g., in",,20018,45,older_asian_male
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,older_asian_male,male,60 years old,Asian,High school,Older Asian male with high school education,"3 2 1 1 2 1 1 1 3 0.8
+please note that the comment is empty, so i will provide a hypothetical example for demonstration purposes. here's an example comment: ""i'm so tired of people like you always rui",,16493,66,older_asian_male
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,older_asian_male,male,60 years old,Asian,High school,Older Asian male with high school education,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a hypothetical example for demonstration purposes.
+
+hypothetical example:
+comment: ""you're a stupid idiot for not liking my post.""
+",,38354,182,older_asian_male
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,older_asian_male,male,60 years old,Asian,High school,Older Asian male with high school education,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a hypothetical example of a comment that might elicit these ratings.
+
+example comment: ""this is the worst content ever. you're a to",,20054,165,older_asian_male
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,older_asian_male,male,60 years old,Asian,High school,Older Asian male with high school education,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a hypothetical example of a comment that might elicit these ratings.
+
+example comment: ""this is the worst content ever created. you",,31779,78,older_asian_male
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,older_asian_male,male,60 years old,Asian,High school,Older Asian male with high school education,"3 2 1 1 2 1 1 1 3 0.8
+
+please note that the comment is empty, which might affect the analysis. 
+
+the provided ratings are based on the assumption that the comment is empty, and the ratings are based o",,2317,186,older_asian_male
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,older_asian_male,male,60 years old,Asian,High school,Older Asian male with high school education,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a hypothetical example for demonstration purposes.
+
+hypothetical example:
+comment: ""you're a stupid idiot for thinking that way.""
+
+",,48434,177,older_asian_male
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,older_asian_male,male,60 years old,Asian,High school,Older Asian male with high school education,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide ratings based on the context of the comment being empty. 
+
+please note that the analysis is subjective and may vary based on indivi",,43793,56,older_asian_male
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,older_asian_male,male,60 years old,Asian,High school,Older Asian male with high school education,"3 2 1 1 2 1 1 1 3 0.8
+please note that the comment is empty, so i will provide a hypothetical example for demonstration purposes.
+
+example comment: ""this is the worst content ever created. you're a co",,28929,152,older_asian_male
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,older_asian_male,male,60 years old,Asian,High school,Older Asian male with high school education,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a general analysis based on the attributes.
+
+based on the comment being empty, i would rate it as follows:
+
+1. sentiment: 5 (very p",,2952,82,older_asian_male
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,older_asian_male,male,60 years old,Asian,High school,Older Asian male with high school education,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a default rating for each attribute. 
+
+default ratings:
+1. sentiment: 3
+2. respect: 2
+3. insult: 1
+4. humiliate: 1
+5. status: 2
+6. ",,20055,68,older_asian_male
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,older_asian_male,male,60 years old,Asian,High school,Older Asian male with high school education,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a hypothetical example for demonstration purposes. here's an example comment: ""i'm so tired of your stupid posts. you're just a was",,43442,124,older_asian_male
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,older_asian_male,male,60 years old,Asian,High school,Older Asian male with high school education,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a hypothetical example for demonstration purposes. here's an example comment: ""i'm so tired of people like you always ruining every",,20043,16,older_asian_male
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,older_asian_male,male,60 years old,Asian,High school,Older Asian male with high school education,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i'll provide a default rating for each attribute. 
+
+default ratings:
+1. sentiment: 3
+2. respect: 2
+3. insult: 1
+4. humiliate: 1
+5. status: 2
+6. de",,31411,148,older_asian_male
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,older_asian_male,male,60 years old,Asian,High school,Older Asian male with high school education,"3 2 1 1 2 1 1 1 3 0.8
+please note that the comment is empty, so i will provide a hypothetical example for demonstration purposes.
+
+example:
+comment: ""this is the worst content ever created. you're a t",,17157,93,older_asian_male
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,older_asian_male,male,60 years old,Asian,High school,Older Asian male with high school education,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a default rating for each attribute. 
+
+default ratings:
+1. sentiment: 3
+2. respect: 2
+3. insult: 1
+4. humiliate: 1
+5. status: 2
+6. ",,8041,65,older_asian_male
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,older_asian_male,male,60 years old,Asian,High school,Older Asian male with high school education,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a hypothetical example of a comment that might elicit these ratings.
+
+example comment: ""you're a terrible person for not liking my ",,20005,60,older_asian_male
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,older_asian_male,male,60 years old,Asian,High school,Older Asian male with high school education,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a general analysis based on the attributes.
+
+based on the comment being empty, i would rate it as follows:
+
+1. sentiment: 5 (very p",,18090,84,older_asian_male
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,older_asian_male,male,60 years old,Asian,High school,Older Asian male with high school education,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so the analysis will be based on the context provided. 
+
+please note that the comment is empty, so the analysis will be based on the context provided",,20057,67,older_asian_male
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,older_asian_male,male,60 years old,Asian,High school,Older Asian male with high school education,"3 2 1 1 2 1 1 1 3 0.8
+please note that the comment is empty, so i will provide a hypothetical example for demonstration purposes.
+
+example:
+comment: ""this is the worst content ever created. you're a c",,16178,125,older_asian_male
+2.0,1.5,2.0,2.0,2.0,2.0,1.0,1.0,3.0,0.8,annotator_role,older_asian_male,male,60 years old,Asian,High school,Older Asian male with high school education,"2 3 2 2 2 2 1 1 3 0.8
+
+note: the comment is empty, so i'll provide a hypothetical example for demonstration purposes.
+
+hypothetical example:
+comment: ""you're a stupid idiot for not liking my post.""
+
+r",,20045,132,older_asian_male
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,older_asian_male,male,60 years old,Asian,High school,Older Asian male with high school education,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a hypothetical example of a comment that might elicit these ratings.
+
+example comment: ""you're a terrible person for not liking my ",,20070,9,older_asian_male
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,older_asian_male,male,60 years old,Asian,High school,Older Asian male with high school education,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a default rating for each attribute. 
+1. sentiment: 3 (neutral)
+2. respect: 2 (respectful)
+3. insult: 1 (not insulting)
+4. humiliat",,20004,18,older_asian_male
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,older_asian_male,male,60 years old,Asian,High school,Older Asian male with high school education,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i'll provide a default rating for each attribute. 
+
+default ratings:
+1. sentiment: 3
+2. respect: 2
+3. insult: 1
+4. humiliate: 1
+5. status: 2
+6. de",,42704,55,older_asian_male
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,older_asian_male,male,60 years old,Asian,High school,Older Asian male with high school education,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a default rating for each attribute. 
+1. sentiment: 3 (neutral)
+2. respect: 2 (respectful)
+3. insult: 1 (not insulting)
+4. humiliat",,10476,75,older_asian_male
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,older_asian_male,male,60 years old,Asian,High school,Older Asian male with high school education,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i'll provide a default rating for each attribute. 
+
+default ratings:
+1. sentiment: 3
+2. respect: 2
+3. insult: 1
+4. humiliate: 1
+5. status: 2
+6. de",,6827,150,older_asian_male
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,older_asian_male,male,60 years old,Asian,High school,Older Asian male with high school education,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i'll provide a general analysis based on the attributes.
+
+the comment is empty, which means it doesn't contain any words or phrases that can be an",,23517,104,older_asian_male
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,older_asian_male,male,60 years old,Asian,High school,Older Asian male with high school education,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a default rating for each attribute. 
+
+default ratings:
+1. sentiment: 3
+2. respect: 2
+3. insult: 1
+4. humiliate: 1
+5. status: 2
+6. ",,20088,135,older_asian_male
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,older_asian_male,male,60 years old,Asian,High school,Older Asian male with high school education,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so the analysis will be based on the context provided. 
+
+please note that the comment is empty, but i will provide a general analysis based on the co",,18346,137,older_asian_male
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,older_asian_male,male,60 years old,Asian,High school,Older Asian male with high school education,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so the analysis will be based on the context provided. 
+
+please note that the comment is empty, so the analysis will be based on the context provided",,20025,164,older_asian_male
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,older_asian_male,male,60 years old,Asian,High school,Older Asian male with high school education,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a general analysis based on the attributes. 
+
+the comment is empty, which means it does not contain any words or phrases that can b",,2747,76,older_asian_male
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,older_asian_male,male,60 years old,Asian,High school,Older Asian male with high school education,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a hypothetical example of a comment that might elicit these ratings.
+
+example comment: ""this is the worst content ever. you're a to",,30261,79,older_asian_male
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,older_asian_male,male,60 years old,Asian,High school,Older Asian male with high school education,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a general analysis based on the attributes.
+
+based on the comment being empty, i would rate it as follows:
+
+1. sentiment: 5 (very p",,13734,197,older_asian_male
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,older_asian_male,male,60 years old,Asian,High school,Older Asian male with high school education,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a default response. 
+
+please note that the analysis is subjective and may vary based on individual perspectives and cultural backgr",,34899,38,older_asian_male
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,older_asian_male,male,60 years old,Asian,High school,Older Asian male with high school education,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a general analysis based on the attributes.
+
+based on the comment being empty, i would rate it as follows:
+
+1. sentiment: 5 (very p",,19815,24,older_asian_male
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,older_asian_male,male,60 years old,Asian,High school,Older Asian male with high school education,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is blank, so i will provide a hypothetical example for analysis. let's assume the comment is: ""i don't like your post because it's stupid and you're an idiot.""",,26493,122,older_asian_male
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,older_asian_male,male,60 years old,Asian,High school,Older Asian male with high school education,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a default rating for each attribute. 
+
+default ratings:
+1. sentiment: 3
+2. respect: 2
+3. insult: 1
+4. humiliate: 1
+5. status: 2
+6. ",,39511,195,older_asian_male
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,older_asian_male,male,60 years old,Asian,High school,Older Asian male with high school education,"3 2 1 1 2 1 1 1 3 0.8
+please note that the comment is empty, so i will provide a hypothetical example for the analysis.
+
+hypothetical example:
+comment: ""this is the worst content ever created. it's a ",,20016,29,older_asian_male
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,older_asian_male,male,60 years old,Asian,High school,Older Asian male with high school education,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i'll provide a hypothetical example for demonstration purposes.
+
+hypothetical example:
+comment: ""you're a stupid idiot for not liking my post.""
+
+r",,20048,19,older_asian_male
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,older_asian_male,male,60 years old,Asian,High school,Older Asian male with high school education,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a general analysis based on the attributes.
+
+based on the comment being empty, i would rate it as follows:
+
+1. sentiment: 3 (neutra",,1645,143,older_asian_male
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,older_asian_male,male,60 years old,Asian,High school,Older Asian male with high school education,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a hypothetical example for demonstration purposes. here's an example comment: ""i'm so tired of people like you always ruining every",,39711,86,older_asian_male

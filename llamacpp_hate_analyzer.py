@@ -308,7 +308,7 @@ EXAMPLES:
 
 Respond with ONLY:
 RATING: [0.0, 1.0, or 2.0]
-CONFIDENCE: [0.1 to 1.0]
+CONFIDENCE: [0.0 to 1.0]
 
 Be decisive - avoid middle ratings unless truly ambiguous.'''
 
@@ -350,11 +350,7 @@ Be decisive - avoid middle ratings unless truly ambiguous.'''
                     elif any(indicator in output for indicator in no_hate_indicators):
                         rating = 0.0  
                         confidence = 0.8
-                    else:
-                        # Check the actual content for obvious cases
-                        text_lower = text.lower()
-                        obvious_slurs = ['nigger', 'nigga', 'faggot', 'tranny', 'kike', 'spic']
-                        hate_phrases = ['hate', 'kill all', 'deport them all']
+                
                         
                         if any(slur in text_lower for slur in obvious_slurs):
                             rating = 2.0

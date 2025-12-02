@@ -1,0 +1,333 @@
+sentiment,respect,insult,humiliate,status,dehumanize,violence,genocide,attack_defend,confidence,prompt_type,annotator_profile_id,annotator_gender,annotator_age,annotator_race,annotator_education,annotator_description,raw_output,text,comment_id,index,profile_id
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,young_white_male,male,25 years old,White/Caucasian,College degree,Young white male with college education,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a hypothetical example for analysis. let's assume the comment is: ""this is the worst content ever created. it's a waste of time and",,41924,95,young_white_male
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,young_white_male,male,25 years old,White/Caucasian,College degree,Young white male with college education,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is blank, so i will provide a rating for each attribute based on the context of the analysis. 
+
+please note that the comment is blank, so i will provide a neut",,8369,15,young_white_male
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,young_white_male,male,25 years old,White/Caucasian,College degree,Young white male with college education,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a default rating for each attribute. 
+
+default ratings:
+1. sentiment: 3
+2. respect: 2
+3. insult: 1
+4. humiliate: 1
+5. status: 2
+6. ",,28621,30,young_white_male
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,young_white_male,male,25 years old,White/Caucasian,College degree,Young white male with college education,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a default rating for each attribute. 
+
+default ratings:
+1. sentiment: 3
+2. respect: 2
+3. insult: 1
+4. humiliate: 1
+5. status: 2
+6. ",,20061,158,young_white_male
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,young_white_male,male,25 years old,White/Caucasian,College degree,Young white male with college education,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so the analysis will be based on the context provided. 
+
+please note that the comment is empty, but i will provide a hypothetical example of a commen",,21275,128,young_white_male
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,young_white_male,male,25 years old,White/Caucasian,College degree,Young white male with college education,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a default rating for each attribute. 
+
+default ratings:
+1. sentiment: 3
+2. respect: 2
+3. insult: 1
+4. humiliate: 1
+5. status: 2
+6. ",,21406,115,young_white_male
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,young_white_male,male,25 years old,White/Caucasian,College degree,Young white male with college education,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a default rating for each attribute. 
+
+default ratings:
+1. sentiment: 3
+2. respect: 2
+3. insult: 1
+4. humiliate: 1
+5. status: 2
+6. ",,13674,69,young_white_male
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,young_white_male,male,25 years old,White/Caucasian,College degree,Young white male with college education,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so the analysis will be based on the context provided. 
+
+please note that the comment is empty, but i will provide a hypothetical example of a commen",,28486,170,young_white_male
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,young_white_male,male,25 years old,White/Caucasian,College degree,Young white male with college education,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a hypothetical example for demonstration purposes. here is a revised comment:
+
+comment: ""this is the most ridiculous thing i've eve",,32127,174,young_white_male
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,young_white_male,male,25 years old,White/Caucasian,College degree,Young white male with college education,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a default rating for each attribute. 
+
+default ratings:
+1. sentiment: 3
+2. respect: 2
+3. insult: 1
+4. humiliate: 1
+5. status: 2
+6. ",,20018,45,young_white_male
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,young_white_male,male,25 years old,White/Caucasian,College degree,Young white male with college education,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so the analysis is based on the absence of content. 
+
+please provide the rating for the attribute ""attack/defend"" with a brief explanation. 
+
+rating:",,16493,66,young_white_male
+2.0,2.0,3.0,2.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,young_white_male,male,25 years old,White/Caucasian,College degree,Young white male with college education,"2 2 3 2 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a default response.
+
+1. sentiment: 3 (neutral)
+2. respect: 2 (respectful)
+3. insult: 3 (insulting)
+4. humiliate: 2 (neutral)
+5. sta",,38354,182,young_white_male
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,young_white_male,male,25 years old,White/Caucasian,College degree,Young white male with college education,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a hypothetical example of a comment that might elicit these ratings.
+
+example comment: ""this is the worst content ever created. it'",,20054,165,young_white_male
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,young_white_male,male,25 years old,White/Caucasian,College degree,Young white male with college education,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a hypothetical example for demonstration purposes.
+
+hypothetical example:
+comment: ""this is the worst content ever created. it's a ",,31779,78,young_white_male
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,young_white_male,male,25 years old,White/Caucasian,College degree,Young white male with college education,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a rating for each attribute based on the context of the analysis. 
+
+please provide the rating for each attribute. 
+
+here are the ra",,2317,186,young_white_male
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,young_white_male,male,25 years old,White/Caucasian,College degree,Young white male with college education,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a default response.
+
+3 2 1 1 2 1 1 1 3 0.8
+
+please note that the analysis is subjective and may vary based on individual perspectiv",,48434,177,young_white_male
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,young_white_male,male,25 years old,White/Caucasian,College degree,Young white male with college education,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a hypothetical example to demonstrate the output format.
+
+example:
+rating: 4 5 1 1 3 1 1 1 1 1
+
+this means the comment has a positi",,43793,56,young_white_male
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,young_white_male,male,25 years old,White/Caucasian,College degree,Young white male with college education,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i'll provide a default response.
+
+3 2 1 1 2 1 1 1 3 0.8
+
+please note that the analysis is subjective and may vary based on individual perspectives",,28929,152,young_white_male
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,young_white_male,male,25 years old,White/Caucasian,College degree,Young white male with college education,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a hypothetical example for analysis. let's assume the comment is: ""this is the worst content ever created.""
+
+ratings: 5 1 4 4 1 2 2",,2952,82,young_white_male
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,young_white_male,male,25 years old,White/Caucasian,College degree,Young white male with college education,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a default rating for each attribute. 
+
+default ratings:
+1. sentiment: 3
+2. respect: 2
+3. insult: 1
+4. humiliate: 1
+5. status: 2
+6. ",,20055,68,young_white_male
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,young_white_male,male,25 years old,White/Caucasian,College degree,Young white male with college education,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a hypothetical example for demonstration purposes. here's an example comment: ""this is the worst content ever created. it's so stup",,43442,124,young_white_male
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,young_white_male,male,25 years old,White/Caucasian,College degree,Young white male with college education,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a hypothetical example for demonstration purposes. here's an example comment:
+
+""your article is trash. you're just a hack journalis",,20043,16,young_white_male
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,young_white_male,male,25 years old,White/Caucasian,College degree,Young white male with college education,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so the analysis will be based on the context provided. 
+
+please note that the comment is empty, but i will provide a hypothetical analysis based on t",,31411,148,young_white_male
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,young_white_male,male,25 years old,White/Caucasian,College degree,Young white male with college education,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a default rating for each attribute. 
+1. sentiment: 3 (neutral)
+2. respect: 2 (respectful)
+3. insult: 1 (not insulting)
+4. humiliat",,17157,93,young_white_male
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,young_white_male,male,25 years old,White/Caucasian,College degree,Young white male with college education,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a hypothetical example for analysis purposes.
+
+hypothetical comment: ""this is the worst content ever created. it's so stupid and an",,8041,65,young_white_male
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,young_white_male,male,25 years old,White/Caucasian,College degree,Young white male with college education,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a rating for each attribute based on the context of the analysis. 
+
+please provide the rating for the attribute ""violence"" (1=no vi",,20005,60,young_white_male
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,young_white_male,male,25 years old,White/Caucasian,College degree,Young white male with college education,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a hypothetical example for analysis purposes.
+
+hypothetical comment: ""this is the most ridiculous thing i've ever seen. you're clea",,18090,84,young_white_male
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,young_white_male,male,25 years old,White/Caucasian,College degree,Young white male with college education,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a default rating for each attribute. 
+1. sentiment: 3 (neutral)
+2. respect: 2 (respectful)
+3. insult: 1 (not insulting)
+4. humiliat",,20057,67,young_white_male
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,young_white_male,male,25 years old,White/Caucasian,College degree,Young white male with college education,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a default rating for each attribute. 
+
+default ratings:
+1. sentiment: 3
+2. respect: 2
+3. insult: 1
+4. humiliate: 1
+5. status: 2
+6. ",,16178,125,young_white_male
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,young_white_male,male,25 years old,White/Caucasian,College degree,Young white male with college education,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a hypothetical example of a comment that would elicit these ratings.
+
+example comment: ""this is the worst content ever created. it'",,20045,132,young_white_male
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,young_white_male,male,25 years old,White/Caucasian,College degree,Young white male with college education,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a general analysis based on the attributes.
+
+based on the comment being empty, i would rate it as follows:
+
+1. sentiment: 5 (very p",,20070,9,young_white_male
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,young_white_male,male,25 years old,White/Caucasian,College degree,Young white male with college education,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a hypothetical example of a comment that would receive these ratings.
+
+example comment: ""this is the worst content ever. you're a t",,20004,18,young_white_male
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,young_white_male,male,25 years old,White/Caucasian,College degree,Young white male with college education,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a hypothetical example for analysis purposes.
+
+hypothetical comment: ""this is the most ridiculous thing i've ever seen. you're clea",,42704,55,young_white_male
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,young_white_male,male,25 years old,White/Caucasian,College degree,Young white male with college education,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a default rating for each attribute. 
+
+default ratings:
+1. sentiment: 3
+2. respect: 2
+3. insult: 1
+4. humiliate: 1
+5. status: 2
+6. ",,10476,75,young_white_male
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,young_white_male,male,25 years old,White/Caucasian,College degree,Young white male with college education,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a default response.
+
+3 2 1 1 2 1 1 1 3 0.8
+
+please note that the analysis is subjective and may vary based on individual perspectiv",,6827,150,young_white_male
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,young_white_male,male,25 years old,White/Caucasian,College degree,Young white male with college education,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a default rating for each attribute. 
+
+default ratings:
+1. sentiment: 3
+2. respect: 2
+3. insult: 1
+4. humiliate: 1
+5. status: 2
+6. ",,23517,104,young_white_male
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,young_white_male,male,25 years old,White/Caucasian,College degree,Young white male with college education,"3 2 1 1 2 1 1 1 3 0.8
+
+please note that the comment is empty, so i will provide a hypothetical example of a comment that might elicit these ratings.
+
+example comment: ""this is the most ridiculous thin",,20088,135,young_white_male
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,young_white_male,male,25 years old,White/Caucasian,College degree,Young white male with college education,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is blank, so i will provide a hypothetical example of a comment that would receive these ratings.
+
+example comment: ""this is the worst content ever. you're a t",,18346,137,young_white_male
+2.0,1.5,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,young_white_male,male,25 years old,White/Caucasian,College degree,Young white male with college education,"2 3 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a rating for each attribute based on the context of the analysis. 
+
+please provide the rating for each attribute. 
+
+1. sentiment: 
+",,20025,164,young_white_male
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,young_white_male,male,25 years old,White/Caucasian,College degree,Young white male with college education,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so the analysis will be based on the context provided. 
+
+please note that the comment is empty, so the analysis will be based on the context provided",,2747,76,young_white_male
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,young_white_male,male,25 years old,White/Caucasian,College degree,Young white male with college education,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i'll provide a default response.
+
+3 2 1 1 2 1 1 1 3 0.8
+
+please note that the analysis is subjective and may vary based on individual perspectives",,30261,79,young_white_male
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,young_white_male,male,25 years old,White/Caucasian,College degree,Young white male with college education,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a hypothetical example of a comment that would receive these ratings.
+
+example comment: ""this is the most ridiculous thing i've eve",,13734,197,young_white_male
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,young_white_male,male,25 years old,White/Caucasian,College degree,Young white male with college education,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a default rating for each attribute. 
+1. sentiment: 3 (neutral)
+2. respect: 2 (respectful)
+3. insult: 1 (not insulting)
+4. humiliat",,34899,38,young_white_male
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,young_white_male,male,25 years old,White/Caucasian,College degree,Young white male with college education,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a rating for each attribute based on the context of the analysis. 
+
+please note that the rating scale for some attributes (e.g., in",,19815,24,young_white_male
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,young_white_male,male,25 years old,White/Caucasian,College degree,Young white male with college education,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a default response. 
+
+for the sake of this exercise, let's assume the comment is a neutral statement. 
+
+the comment is: ""i'm not su",,26493,122,young_white_male
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,young_white_male,male,25 years old,White/Caucasian,College degree,Young white male with college education,"3 2 1 1 2 1 1 1 3 0.8
+please note that the comment is empty, so i will provide a hypothetical example for demonstration purposes. here is a revised comment:
+
+comment: ""this is the most ridiculous thin",,39511,195,young_white_male
+2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,0.8,annotator_role,young_white_male,male,25 years old,White/Caucasian,College degree,Young white male with college education,"2 2 2 2 2 2 2 2 2 0.8
+
+note: the comment is empty, so the analysis will be based on the context provided. 
+
+please note that the comment is empty, but i will provide a hypothetical example of a commen",,20016,29,young_white_male
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,young_white_male,male,25 years old,White/Caucasian,College degree,Young white male with college education,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a rating for each attribute based on the context of the analysis. 
+
+please note that the rating scale for some attributes (e.g., in",,20048,19,young_white_male
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,young_white_male,male,25 years old,White/Caucasian,College degree,Young white male with college education,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a default rating for some attributes. 
+
+please note that the comment is empty, so i will provide default ratings for some attribute",,1645,143,young_white_male
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,young_white_male,male,25 years old,White/Caucasian,College degree,Young white male with college education,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a hypothetical example of a comment that might elicit these ratings.
+
+example comment: ""this is the worst content ever created. it'",,39711,86,young_white_male

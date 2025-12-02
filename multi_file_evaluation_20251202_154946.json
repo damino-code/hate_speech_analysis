@@ -1,0 +1,74 @@
+[
+  {
+    "file": "annotator_role_female_basic_20251202_143031.csv",
+    "prompt_type": "annotator_role",
+    "n_comments": 50,
+    "attributes": {
+      "sentiment": {
+        "correlation": 0.0,
+        "accuracy": 0.14,
+        "f1_macro": 0.04912280701754386,
+        "mae": 0.9076982722112185
+      },
+      "respect": {
+        "correlation": 0.0,
+        "accuracy": 0.16,
+        "f1_macro": 0.05517241379310345,
+        "mae": 1.354351318432685
+      },
+      "insult": {
+        "correlation": 0.08049392785292946,
+        "accuracy": 0.12,
+        "f1_macro": 0.06630727762803235,
+        "mae": 1.8184064439287382
+      },
+      "humiliate": {
+        "correlation": 0.008963233655046072,
+        "accuracy": 0.1,
+        "f1_macro": 0.0641025641025641,
+        "mae": 1.6657100023615303
+      },
+      "status": {
+        "correlation": 0.0,
+        "accuracy": 0.48,
+        "f1_macro": 0.21621621621621623,
+        "mae": 0.7304895254137449
+      },
+      "dehumanize": {
+        "correlation": 0.0,
+        "accuracy": 0.24,
+        "f1_macro": 0.07741935483870968,
+        "mae": 1.1886004255298193
+      },
+      "violence": {
+        "correlation": 0.0,
+        "accuracy": 0.3,
+        "f1_macro": 0.09230769230769231,
+        "mae": 0.8800008156943878
+      },
+      "genocide": {
+        "correlation": 0.0,
+        "accuracy": 0.24,
+        "f1_macro": 0.07741935483870968,
+        "mae": 0.8250548187277204
+      },
+      "attack_defend": {
+        "correlation": 0.0,
+        "accuracy": 0.32,
+        "f1_macro": 0.09696969696969697,
+        "mae": 0.7257784813476637
+      }
+    },
+    "overall": {
+      "avg_correlation": 0.009939684611997282,
+      "avg_accuracy": 0.23333333333333334,
+      "avg_f1_macro": 0.08833748641247428,
+      "avg_mae": 1.1217877892941677
+    },
+    "metrics_file": "annotator_role_female_basic_metrics_20251202_154945.json",
+    "visualization_files": [
+      "annotator_role_female_basic_correlation_matrix_20251202_154945.png",
+      "annotator_role_female_basic_scatter_plots_20251202_154945.png"
+    ]
+  }
+]

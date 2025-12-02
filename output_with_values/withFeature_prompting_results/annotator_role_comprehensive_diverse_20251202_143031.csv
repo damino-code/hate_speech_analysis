@@ -1,0 +1,254 @@
+sentiment,respect,insult,humiliate,status,dehumanize,violence,genocide,attack_defend,confidence,prompt_type,annotator_profile_id,annotator_gender,annotator_age,annotator_race,annotator_religion,annotator_education,annotator_ideology,annotator_income,annotator_description,raw_output,text,comment_id,index,profile_id
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,comprehensive_diverse,female,35 years old,Hispanic/Latino,Catholic,Graduate degree,Moderate,Middle income,"Hispanic Catholic female, 35, graduate degree, moderate ideology","3 2 1 1 2 1 1 1 3 0.8
+ 
+
+note: the comment is not provided, so i'll assume a neutral comment for the analysis. 
+
+please provide the analysis based on the comment ""i'm not sure what's going on, but i t",,41924,95,comprehensive_diverse
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,comprehensive_diverse,female,35 years old,Hispanic/Latino,Catholic,Graduate degree,Moderate,Middle income,"Hispanic Catholic female, 35, graduate degree, moderate ideology","3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is blank, so i will provide a hypothetical example of a comment that would receive these ratings.
+
+example comment: ""this is a terrible idea and you're just tr",,8369,15,comprehensive_diverse
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,comprehensive_diverse,female,35 years old,Hispanic/Latino,Catholic,Graduate degree,Moderate,Middle income,"Hispanic Catholic female, 35, graduate degree, moderate ideology","3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a hypothetical example of a comment with a rating of 3 for sentiment, 2 for respect, and 1 for insult.
+
+example:
+""are you kidding m",,28621,30,comprehensive_diverse
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,comprehensive_diverse,female,35 years old,Hispanic/Latino,Catholic,Graduate degree,Moderate,Middle income,"Hispanic Catholic female, 35, graduate degree, moderate ideology","3 2 1 1 2 1 0 0 3 0.8
+
+note: the comment is empty, so the analysis will be based on the context provided. 
+
+please note that the comment is empty, but i will provide a hypothetical example of a commen",,20061,158,comprehensive_diverse
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,comprehensive_diverse,female,35 years old,Hispanic/Latino,Catholic,Graduate degree,Moderate,Middle income,"Hispanic Catholic female, 35, graduate degree, moderate ideology","3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is blank, so i will provide a hypothetical example of a comment that would receive these ratings.
+
+example comment: ""i'm so tired of people like you always try",,21275,128,comprehensive_diverse
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,comprehensive_diverse,female,35 years old,Hispanic/Latino,Catholic,Graduate degree,Moderate,Middle income,"Hispanic Catholic female, 35, graduate degree, moderate ideology","3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is blank, so i will provide a hypothetical example of a comment that would receive these ratings.
+
+example comment: ""this is the worst article i've ever read. ",,21406,115,comprehensive_diverse
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,comprehensive_diverse,female,35 years old,Hispanic/Latino,Catholic,Graduate degree,Moderate,Middle income,"Hispanic Catholic female, 35, graduate degree, moderate ideology","3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is blank, so i will provide a hypothetical example of a comment that would receive these ratings.
+
+example comment: ""this is a terrible idea and you're just a ",,13674,69,comprehensive_diverse
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,comprehensive_diverse,female,35 years old,Hispanic/Latino,Catholic,Graduate degree,Moderate,Middle income,"Hispanic Catholic female, 35, graduate degree, moderate ideology","3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is blank, so i will provide a hypothetical example of a comment that would receive these ratings.
+
+example comment: ""i'm so tired of people like you who think ",,28486,170,comprehensive_diverse
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,comprehensive_diverse,female,35 years old,Hispanic/Latino,Catholic,Graduate degree,Moderate,Middle income,"Hispanic Catholic female, 35, graduate degree, moderate ideology","3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a hypothetical example of a comment that would elicit these ratings.
+
+example comment: ""this is the worst article i've ever read. t",,32127,174,comprehensive_diverse
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,comprehensive_diverse,female,35 years old,Hispanic/Latino,Catholic,Graduate degree,Moderate,Middle income,"Hispanic Catholic female, 35, graduate degree, moderate ideology","3 2 1 1 2 1 1 1 3 0.8
+please note that the comment is empty, so i will provide a hypothetical example for the analysis.
+
+hypothetical example:
+comment: ""this is the worst article i've ever read. the a",,20018,45,comprehensive_diverse
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,comprehensive_diverse,female,35 years old,Hispanic/Latino,Catholic,Graduate degree,Moderate,Middle income,"Hispanic Catholic female, 35, graduate degree, moderate ideology","3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a hypothetical example of a comment that might elicit these ratings.
+
+example comment: ""this is the worst article i've ever read. t",,16493,66,comprehensive_diverse
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,comprehensive_diverse,female,35 years old,Hispanic/Latino,Catholic,Graduate degree,Moderate,Middle income,"Hispanic Catholic female, 35, graduate degree, moderate ideology","3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is blank, so i will provide a rating for each attribute based on the context of the analysis. 
+
+please note that the rating scale for some attributes (e.g., in",,38354,182,comprehensive_diverse
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,comprehensive_diverse,female,35 years old,Hispanic/Latino,Catholic,Graduate degree,Moderate,Middle income,"Hispanic Catholic female, 35, graduate degree, moderate ideology","3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a hypothetical example of a comment that would elicit these ratings.
+
+example comment: ""this is the most ridiculous thing i've ever",,20054,165,comprehensive_diverse
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,comprehensive_diverse,female,35 years old,Hispanic/Latino,Catholic,Graduate degree,Moderate,Middle income,"Hispanic Catholic female, 35, graduate degree, moderate ideology","3 2 1 1 2 1 1 1 3 0.8
+explanation: 
+please provide a detailed explanation for each rating. 
+(note: the comment is empty, so i'll provide a general analysis based on the attributes)
+
+ratings: 3 2 1 1 2",,31779,78,comprehensive_diverse
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,comprehensive_diverse,female,35 years old,Hispanic/Latino,Catholic,Graduate degree,Moderate,Middle income,"Hispanic Catholic female, 35, graduate degree, moderate ideology","3 2 1 1 2 1 1 1 3 0.8
+please note that the comment is empty, so i will provide a hypothetical example of a comment that would elicit these ratings.
+
+example comment: ""this is the most ridiculous thing",,2317,186,comprehensive_diverse
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,comprehensive_diverse,female,35 years old,Hispanic/Latino,Catholic,Graduate degree,Moderate,Middle income,"Hispanic Catholic female, 35, graduate degree, moderate ideology","3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is blank, so i will provide a hypothetical example for the purpose of this exercise. here is a revised comment:
+
+""your article is a joke. you're just regurgita",,48434,177,comprehensive_diverse
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,comprehensive_diverse,female,35 years old,Hispanic/Latino,Catholic,Graduate degree,Moderate,Middle income,"Hispanic Catholic female, 35, graduate degree, moderate ideology","3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is blank, so i will provide a hypothetical example of a comment that would receive these ratings.
+
+example comment: ""this is the worst article i've ever read. ",,43793,56,comprehensive_diverse
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,comprehensive_diverse,female,35 years old,Hispanic/Latino,Catholic,Graduate degree,Moderate,Middle income,"Hispanic Catholic female, 35, graduate degree, moderate ideology","3 2 1 1 2 1 1 1 3 0.8
+
+please note that the comment is empty, which might affect the analysis. 
+
+the final answer is: $\boxed{3 2 1 1 2 1 1 1 3 0.8}$",,28929,152,comprehensive_diverse
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,comprehensive_diverse,female,35 years old,Hispanic/Latino,Catholic,Graduate degree,Moderate,Middle income,"Hispanic Catholic female, 35, graduate degree, moderate ideology","3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is blank, so i will provide a hypothetical example of a comment that would receive these ratings.
+
+example comment: ""this article is a joke. the author is clea",,2952,82,comprehensive_diverse
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,comprehensive_diverse,female,35 years old,Hispanic/Latino,Catholic,Graduate degree,Moderate,Middle income,"Hispanic Catholic female, 35, graduate degree, moderate ideology","3 2 1 1 2 1 1 1 3 0.8
+
+please provide a detailed explanation for your ratings.
+
+1. sentiment: 3
+the comment is neutral, neither positive nor negative. it does not express any strong emotions or opinio",,20055,68,comprehensive_diverse
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,comprehensive_diverse,female,35 years old,Hispanic/Latino,Catholic,Graduate degree,Moderate,Middle income,"Hispanic Catholic female, 35, graduate degree, moderate ideology","3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a rating for each attribute based on the context of the analysis. 
+
+please let me know if you need any further clarification or det",,43442,124,comprehensive_diverse
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,comprehensive_diverse,female,35 years old,Hispanic/Latino,Catholic,Graduate degree,Moderate,Middle income,"Hispanic Catholic female, 35, graduate degree, moderate ideology","3 2 1 1 2 1 1 1 3 0.8
+explanation: 
+please provide a detailed explanation for each rating. 
+(note: the comment is empty, so i'll provide a general explanation for each rating.)
+
+rating 1 (sentiment): ",,20043,16,comprehensive_diverse
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,comprehensive_diverse,female,35 years old,Hispanic/Latino,Catholic,Graduate degree,Moderate,Middle income,"Hispanic Catholic female, 35, graduate degree, moderate ideology","3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a rating for each attribute based on the context of the analysis. 
+
+please provide the analysis for each attribute.
+
+1. sentiment: ",,31411,148,comprehensive_diverse
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,comprehensive_diverse,female,35 years old,Hispanic/Latino,Catholic,Graduate degree,Moderate,Middle income,"Hispanic Catholic female, 35, graduate degree, moderate ideology","3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is blank, so i will provide a hypothetical example of a comment that would receive these ratings.
+
+example comment: ""this is a terrible idea and you're just a ",,17157,93,comprehensive_diverse
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,comprehensive_diverse,female,35 years old,Hispanic/Latino,Catholic,Graduate degree,Moderate,Middle income,"Hispanic Catholic female, 35, graduate degree, moderate ideology","3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is blank, so i will provide a hypothetical example of a comment that might elicit these ratings.
+
+example comment: ""this is the worst article i've ever read. t",,8041,65,comprehensive_diverse
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,comprehensive_diverse,female,35 years old,Hispanic/Latino,Catholic,Graduate degree,Moderate,Middle income,"Hispanic Catholic female, 35, graduate degree, moderate ideology","3 2 1 1 2 1 1 1 3 0.8
+please note that the comment is empty, so i will provide a hypothetical example for the analysis. let's assume the comment is: ""i don't agree with your opinion, it's stupid.""
+
+ra",,20005,60,comprehensive_diverse
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,comprehensive_diverse,female,35 years old,Hispanic/Latino,Catholic,Graduate degree,Moderate,Middle income,"Hispanic Catholic female, 35, graduate degree, moderate ideology","3 2 1 1 2 1 1 1 3 0.8
+please note that the comment is empty, so i will provide a hypothetical example for the analysis.
+
+hypothetical example:
+comment: ""this is the worst article i've ever read. the a",,18090,84,comprehensive_diverse
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,comprehensive_diverse,female,35 years old,Hispanic/Latino,Catholic,Graduate degree,Moderate,Middle income,"Hispanic Catholic female, 35, graduate degree, moderate ideology","3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is blank, so i'll provide a hypothetical example for demonstration purposes. here's an example comment:
+
+""your article is a joke. you're just a pawn for the go",,20057,67,comprehensive_diverse
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,comprehensive_diverse,female,35 years old,Hispanic/Latino,Catholic,Graduate degree,Moderate,Middle income,"Hispanic Catholic female, 35, graduate degree, moderate ideology","3 2 1 1 2 1 1 1 3 0.8
+please note that the comment is empty, so i will provide a hypothetical example of a comment that would receive these ratings.
+
+example comment: ""this is the most ridiculous thin",,16178,125,comprehensive_diverse
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,comprehensive_diverse,female,35 years old,Hispanic/Latino,Catholic,Graduate degree,Moderate,Middle income,"Hispanic Catholic female, 35, graduate degree, moderate ideology","3 2 1 1 2 1 1 1 3 0.8
+
+please note that the comment is empty, so i will provide a hypothetical analysis for demonstration purposes. 
+
+note: the ratings are subjective and based on the hypothetical com",,20045,132,comprehensive_diverse
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,comprehensive_diverse,female,35 years old,Hispanic/Latino,Catholic,Graduate degree,Moderate,Middle income,"Hispanic Catholic female, 35, graduate degree, moderate ideology","3 2 1 1 2 1 1 1 3 0.8
+
+please provide a detailed explanation for your ratings.
+
+1. sentiment: 3
+the comment is neutral, neither expressing strong emotions nor a clear opinion. it's a statement without",,20070,9,comprehensive_diverse
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,comprehensive_diverse,female,35 years old,Hispanic/Latino,Catholic,Graduate degree,Moderate,Middle income,"Hispanic Catholic female, 35, graduate degree, moderate ideology","3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is blank, so i'll provide a hypothetical example for the analysis. let's assume the comment is: ""this article is a joke. the author is clearly biased and has n",,20004,18,comprehensive_diverse
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,comprehensive_diverse,female,35 years old,Hispanic/Latino,Catholic,Graduate degree,Moderate,Middle income,"Hispanic Catholic female, 35, graduate degree, moderate ideology","3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a hypothetical example of a comment that might elicit these ratings.
+
+example comment: ""this is the worst article i've ever read. t",,42704,55,comprehensive_diverse
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,comprehensive_diverse,female,35 years old,Hispanic/Latino,Catholic,Graduate degree,Moderate,Middle income,"Hispanic Catholic female, 35, graduate degree, moderate ideology","3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is blank, so i will provide a hypothetical example of a comment that would receive these ratings.
+
+example comment: ""this is the most ridiculous thing i've eve",,10476,75,comprehensive_diverse
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,comprehensive_diverse,female,35 years old,Hispanic/Latino,Catholic,Graduate degree,Moderate,Middle income,"Hispanic Catholic female, 35, graduate degree, moderate ideology","3 2 1 1 2 1 1 1 3 0.8
+please note that the comment is empty, so i will provide a hypothetical example for the analysis.
+
+hypothetical example:
+
+comment: ""this is the most ridiculous thing i've ever he",,6827,150,comprehensive_diverse
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,comprehensive_diverse,female,35 years old,Hispanic/Latino,Catholic,Graduate degree,Moderate,Middle income,"Hispanic Catholic female, 35, graduate degree, moderate ideology","3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is blank, so i will provide a hypothetical example of a comment that would elicit these ratings.
+
+example comment: ""this is the worst article i've ever read. t",,23517,104,comprehensive_diverse
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,comprehensive_diverse,female,35 years old,Hispanic/Latino,Catholic,Graduate degree,Moderate,Middle income,"Hispanic Catholic female, 35, graduate degree, moderate ideology","3 2 1 1 2 1 0 0 3 0.8
+
+note: the comment is blank, so i will provide a hypothetical example of a comment that would elicit these ratings.
+
+example comment: ""this is the worst article i've ever read. t",,20088,135,comprehensive_diverse
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,comprehensive_diverse,female,35 years old,Hispanic/Latino,Catholic,Graduate degree,Moderate,Middle income,"Hispanic Catholic female, 35, graduate degree, moderate ideology","3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a hypothetical example of a comment that might elicit these ratings.
+
+example comment: ""this article is a joke. the author is clear",,18346,137,comprehensive_diverse
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,comprehensive_diverse,female,35 years old,Hispanic/Latino,Catholic,Graduate degree,Moderate,Middle income,"Hispanic Catholic female, 35, graduate degree, moderate ideology","3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is blank, so i will provide a hypothetical example of a comment that would receive these ratings.
+
+example comment: ""this is a terrible idea and you're just a ",,20025,164,comprehensive_diverse
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,comprehensive_diverse,female,35 years old,Hispanic/Latino,Catholic,Graduate degree,Moderate,Middle income,"Hispanic Catholic female, 35, graduate degree, moderate ideology","3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a hypothetical example of a comment that would elicit these ratings.
+
+example comment: ""this is the most ridiculous thing i've ever",,2747,76,comprehensive_diverse
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,comprehensive_diverse,female,35 years old,Hispanic/Latino,Catholic,Graduate degree,Moderate,Middle income,"Hispanic Catholic female, 35, graduate degree, moderate ideology","3 2 1 1 2 1 1 1 3 0.8
+please note that the comment is empty, so i will provide a hypothetical example of a comment that might elicit these ratings.
+
+example comment: ""this is the worst article i've ev",,30261,79,comprehensive_diverse
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,comprehensive_diverse,female,35 years old,Hispanic/Latino,Catholic,Graduate degree,Moderate,Middle income,"Hispanic Catholic female, 35, graduate degree, moderate ideology","3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is blank, so i will provide a rating for each attribute based on the context provided. 
+
+please provide the context for each rating. 
+
+1. sentiment (1=very neg",,13734,197,comprehensive_diverse
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,comprehensive_diverse,female,35 years old,Hispanic/Latino,Catholic,Graduate degree,Moderate,Middle income,"Hispanic Catholic female, 35, graduate degree, moderate ideology","3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is blank, so i will provide a rating for each attribute based on the context of the analysis. 
+
+please note that the rating scale for some attributes (e.g., in",,34899,38,comprehensive_diverse
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,comprehensive_diverse,female,35 years old,Hispanic/Latino,Catholic,Graduate degree,Moderate,Middle income,"Hispanic Catholic female, 35, graduate degree, moderate ideology","3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is blank, so i'll provide a hypothetical example for analysis purposes. here's an example comment: ""i'm so tired of people like you who think they're above the",,19815,24,comprehensive_diverse
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,comprehensive_diverse,female,35 years old,Hispanic/Latino,Catholic,Graduate degree,Moderate,Middle income,"Hispanic Catholic female, 35, graduate degree, moderate ideology","3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a hypothetical example of a comment that might elicit these ratings.
+
+example comment: ""this is the most ridiculous thing i've ever",,26493,122,comprehensive_diverse
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,comprehensive_diverse,female,35 years old,Hispanic/Latino,Catholic,Graduate degree,Moderate,Middle income,"Hispanic Catholic female, 35, graduate degree, moderate ideology","3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is blank, so i'll provide a hypothetical example of a comment that would elicit these ratings.
+
+example comment: ""this is the worst article i've ever read. the",,39511,195,comprehensive_diverse
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,comprehensive_diverse,female,35 years old,Hispanic/Latino,Catholic,Graduate degree,Moderate,Middle income,"Hispanic Catholic female, 35, graduate degree, moderate ideology","3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so the analysis will be based on the context provided. 
+
+please note that the comment is empty, so the analysis will be based on the context provided",,20016,29,comprehensive_diverse
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,comprehensive_diverse,female,35 years old,Hispanic/Latino,Catholic,Graduate degree,Moderate,Middle income,"Hispanic Catholic female, 35, graduate degree, moderate ideology","3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a hypothetical example for analysis purposes. here is a revised comment for analysis:
+
+""your article is a joke. you're just a pawn ",,20048,19,comprehensive_diverse
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,comprehensive_diverse,female,35 years old,Hispanic/Latino,Catholic,Graduate degree,Moderate,Middle income,"Hispanic Catholic female, 35, graduate degree, moderate ideology","3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a hypothetical example of a comment that might elicit these ratings.
+
+example comment: ""this is the worst article i've ever read. t",,1645,143,comprehensive_diverse
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,comprehensive_diverse,female,35 years old,Hispanic/Latino,Catholic,Graduate degree,Moderate,Middle income,"Hispanic Catholic female, 35, graduate degree, moderate ideology","3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is blank, so i will provide a hypothetical example of a comment that would receive these ratings.
+
+example comment: ""this is the worst article i've ever read. ",,39711,86,comprehensive_diverse

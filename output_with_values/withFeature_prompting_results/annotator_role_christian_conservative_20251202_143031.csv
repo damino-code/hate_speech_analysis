@@ -1,0 +1,237 @@
+sentiment,respect,insult,humiliate,status,dehumanize,violence,genocide,attack_defend,confidence,prompt_type,annotator_profile_id,annotator_gender,annotator_religion,annotator_ideology,annotator_description,raw_output,text,comment_id,index,profile_id
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,christian_conservative,male,Christian,Conservative,Christian male with conservative ideology,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i'll provide a hypothetical example for demonstration purposes.
+
+example comment: ""this is the most ridiculous thing i've ever seen. you're just a",,41924,95,christian_conservative
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,christian_conservative,male,Christian,Conservative,Christian male with conservative ideology,"3 2 1 1 2 1 1 1 3 0.8
+
+please note that the comment is empty, which might affect the analysis. 
+
+the comment is empty, which might affect the analysis. however, based on the context of the platform an",,8369,15,christian_conservative
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,christian_conservative,male,Christian,Conservative,Christian male with conservative ideology,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is blank, so i'll provide a hypothetical example for demonstration purposes. here's an example comment: ""this is the worst article i've ever read. the author i",,28621,30,christian_conservative
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,christian_conservative,male,Christian,Conservative,Christian male with conservative ideology,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a hypothetical example for demonstration purposes. here's an example comment: ""this is the most ridiculous thing i've ever heard. y",,20061,158,christian_conservative
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,christian_conservative,male,Christian,Conservative,Christian male with conservative ideology,"3 2 1 1 2 1 1 1 3 0.8
+ 
+
+note: the comment is empty, so i will provide a hypothetical example for analysis. let's assume the comment is: ""this is a terrible idea. it's going to ruin our country.""
+
+hyp",,21275,128,christian_conservative
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,christian_conservative,male,Christian,Conservative,Christian male with conservative ideology,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a hypothetical example for the analysis. let's assume the comment is: ""this is a terrible idea and will never work.""
+
+ratings: 5 2 ",,21406,115,christian_conservative
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,christian_conservative,male,Christian,Conservative,Christian male with conservative ideology,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i'll provide a general analysis based on the attributes.
+
+based on the attributes, the comment is neutral in sentiment (3). it does not contain an",,13674,69,christian_conservative
+2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,0.8,annotator_role,christian_conservative,male,Christian,Conservative,Christian male with conservative ideology,"2 2 2 2 2 2 2 2 2 0.8
+
+note: the comment is empty, so i'll provide a general analysis based on the context.
+
+based on the context, the comment is likely to be neutral or positive, as it's empty. howev",,28486,170,christian_conservative
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,christian_conservative,male,Christian,Conservative,Christian male with conservative ideology,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i'll provide a general analysis based on the context.
+
+based on the context, the comment is likely to be neutral or positive, as it's empty and do",,32127,174,christian_conservative
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,christian_conservative,male,Christian,Conservative,Christian male with conservative ideology,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a hypothetical example for demonstration purposes.
+
+example comment: ""this is the most ridiculous thing i've ever heard. you're jus",,20018,45,christian_conservative
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,christian_conservative,male,Christian,Conservative,Christian male with conservative ideology,"3 2 1 1 2 1 1 1 3 0.8
+
+please note that the comment is empty, which might affect the analysis. 
+
+the comment is empty, which might affect the analysis. however, based on the context of the platform an",,16493,66,christian_conservative
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,christian_conservative,male,Christian,Conservative,Christian male with conservative ideology,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a rating for each attribute based on the context of the analysis. 
+
+please note that the comment is empty, so i would expect a neut",,38354,182,christian_conservative
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,christian_conservative,male,Christian,Conservative,Christian male with conservative ideology,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a rating for each attribute based on the context of the comment being empty. 
+
+please provide the analysis and ratings for the comm",,20054,165,christian_conservative
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,christian_conservative,male,Christian,Conservative,Christian male with conservative ideology,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i'll provide a general analysis based on the context of the comment being empty.
+
+based on the context, i would rate the comment as neutral, as it",,31779,78,christian_conservative
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,christian_conservative,male,Christian,Conservative,Christian male with conservative ideology,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is blank, so i will provide a hypothetical analysis for demonstration purposes. 
+
+in this hypothetical scenario, the comment is neutral and respectful, with no",,2317,186,christian_conservative
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,christian_conservative,male,Christian,Conservative,Christian male with conservative ideology,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i'll provide a hypothetical analysis for demonstration purposes. 
+
+in this example, the comment is empty, so i'll provide a hypothetical analysis ",,48434,177,christian_conservative
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,christian_conservative,male,Christian,Conservative,Christian male with conservative ideology,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a hypothetical example for the analysis. let's assume the comment is: ""this is a terrible idea and will lead to disaster.""
+
+ratings",,43793,56,christian_conservative
+2.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,christian_conservative,male,Christian,Conservative,Christian male with conservative ideology,"2 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i'll provide a hypothetical analysis for demonstration purposes.
+
+please note that this is a hypothetical analysis, and actual comments may vary i",,28929,152,christian_conservative
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,christian_conservative,male,Christian,Conservative,Christian male with conservative ideology,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i'll provide a general analysis based on the attributes.
+
+based on the attributes, the comment is neutral in sentiment (3). it does not contain an",,2952,82,christian_conservative
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,christian_conservative,male,Christian,Conservative,Christian male with conservative ideology,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i'll provide a hypothetical analysis for demonstration purposes.
+
+in this example, the comment is empty, so i'll provide a hypothetical analysis f",,20055,68,christian_conservative
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,christian_conservative,male,Christian,Conservative,Christian male with conservative ideology,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i'll provide a general analysis based on the attributes.
+
+based on the attributes, the comment is neutral in sentiment (3). it does not contain an",,43442,124,christian_conservative
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,christian_conservative,male,Christian,Conservative,Christian male with conservative ideology,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is blank, so i'll provide a hypothetical example for analysis purposes. here's a revised comment: ""this is a terrible idea and will only lead to more problems.",,20043,16,christian_conservative
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,christian_conservative,male,Christian,Conservative,Christian male with conservative ideology,"3 2 1 1 2 1 1 1 3 0.8
+
+explanation: 
+please provide a detailed explanation for your ratings, including any relevant context or assumptions.
+
+the comment you are analyzing is empty. i will provide a hy",,31411,148,christian_conservative
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,christian_conservative,male,Christian,Conservative,Christian male with conservative ideology,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i'll provide a hypothetical example for demonstration purposes.
+
+hypothetical example:
+comment: ""this is the most ridiculous thing i've ever heard",,17157,93,christian_conservative
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,christian_conservative,male,Christian,Conservative,Christian male with conservative ideology,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i'll provide a general analysis based on the attributes.
+
+based on the attributes, the comment is neutral in sentiment (3). it does not contain an",,8041,65,christian_conservative
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,christian_conservative,male,Christian,Conservative,Christian male with conservative ideology,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a general analysis based on the context.
+
+based on the context, the comment is likely to be neutral or respectful, as it is empty. ",,20005,60,christian_conservative
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,christian_conservative,male,Christian,Conservative,Christian male with conservative ideology,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i'll provide a general analysis based on the attributes.
+
+based on the attributes, the comment is neutral in sentiment (3). it does not contain an",,18090,84,christian_conservative
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,christian_conservative,male,Christian,Conservative,Christian male with conservative ideology,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is blank, so i'll provide a hypothetical example for demonstration purposes. here's an example comment: ""this is the most ridiculous thing i've ever heard. you",,20057,67,christian_conservative
+2.0,2.0,2.0,2.0,2.0,2.0,1.0,1.0,3.0,0.8,annotator_role,christian_conservative,male,Christian,Conservative,Christian male with conservative ideology,"2 2 2 2 2 2 1 1 3 0.8
+
+note: the comment is empty, so i'll provide a hypothetical analysis for demonstration purposes.
+
+in this example, the comment is empty, so i'll provide a hypothetical analysis f",,16178,125,christian_conservative
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,christian_conservative,male,Christian,Conservative,Christian male with conservative ideology,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i'll provide a hypothetical example for demonstration purposes. here's a revised comment: ""this is the most ridiculous thing i've ever seen. you'r",,20045,132,christian_conservative
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,christian_conservative,male,Christian,Conservative,Christian male with conservative ideology,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is blank, so i will provide a hypothetical example for analysis purposes. here's an example comment: ""this is the worst article i've ever read. the author is c",,20070,9,christian_conservative
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,christian_conservative,male,Christian,Conservative,Christian male with conservative ideology,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so the analysis is based on the context provided. 
+
+please note that the comment is empty, so the analysis is based on the context provided. 
+
+the co",,20004,18,christian_conservative
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,christian_conservative,male,Christian,Conservative,Christian male with conservative ideology,"3 2 1 1 2 1 1 1 3 0.8
+
+explanation: 
+this rating system is based on the analysis of online comments as a content moderator. the ratings are subjective and based on the moderator's experience and persp",,42704,55,christian_conservative
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,christian_conservative,male,Christian,Conservative,Christian male with conservative ideology,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i'll provide a hypothetical example for demonstration purposes. here's an example comment: ""this is the most ridiculous thing i've ever heard. you",,10476,75,christian_conservative
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,christian_conservative,male,Christian,Conservative,Christian male with conservative ideology,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i'll provide a hypothetical analysis for demonstration purposes.
+
+please note that this is a hypothetical analysis, and actual comments may vary i",,6827,150,christian_conservative
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,christian_conservative,male,Christian,Conservative,Christian male with conservative ideology,"3 2 1 1 2 1 1 1 3 0.8
+
+please note that the comment is empty, which might affect the analysis. 
+
+the comment is empty, which might make it challenging to analyze. however, based on the context of the ",,23517,104,christian_conservative
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,christian_conservative,male,Christian,Conservative,Christian male with conservative ideology,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a rating for each attribute based on the context of the analysis. 
+
+please note that the analysis is subjective and may vary based ",,20088,135,christian_conservative
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,christian_conservative,male,Christian,Conservative,Christian male with conservative ideology,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i'll provide a hypothetical example for demonstration purposes. here's an example comment: ""this is the most ridiculous thing i've ever seen. you'",,18346,137,christian_conservative
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,christian_conservative,male,Christian,Conservative,Christian male with conservative ideology,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so the analysis will be based on the context provided. 
+
+please note that the comment is empty, but i'll provide a hypothetical analysis based on the",,20025,164,christian_conservative
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,christian_conservative,male,Christian,Conservative,Christian male with conservative ideology,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a hypothetical example to demonstrate the output format.
+
+example: ""this is a terrible idea. you're wrong and stupid."" 
+
+ratings: 5",,2747,76,christian_conservative
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,christian_conservative,male,Christian,Conservative,Christian male with conservative ideology,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i'll provide a hypothetical example of a comment that might elicit these ratings.
+
+example comment: ""this is the most ridiculous thing i've ever h",,30261,79,christian_conservative
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,christian_conservative,male,Christian,Conservative,Christian male with conservative ideology,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i'll provide a hypothetical analysis for demonstration purposes.
+
+in this hypothetical scenario, the comment is empty, so i'll provide a rating fo",,13734,197,christian_conservative
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,christian_conservative,male,Christian,Conservative,Christian male with conservative ideology,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i'll provide a general analysis based on the attributes.
+
+based on the attributes, the comment is neutral in sentiment (3). it does not contain an",,34899,38,christian_conservative
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,christian_conservative,male,Christian,Conservative,Christian male with conservative ideology,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a hypothetical analysis for demonstration purposes.
+
+in this hypothetical scenario, the comment is empty, so i would rate it as fol",,19815,24,christian_conservative
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,christian_conservative,male,Christian,Conservative,Christian male with conservative ideology,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i'll provide a hypothetical analysis for demonstration purposes.
+
+in this example, the comment is empty, so i'll provide a hypothetical analysis f",,26493,122,christian_conservative
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,christian_conservative,male,Christian,Conservative,Christian male with conservative ideology,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a hypothetical example to demonstrate the output format. let's assume the comment is: ""this is a terrible idea.""
+
+ratings: 5 4 1 1 ",,39511,195,christian_conservative
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,christian_conservative,male,Christian,Conservative,Christian male with conservative ideology,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a hypothetical example for demonstration purposes. here's an example comment: ""i don't agree with your opinion on climate change. i",,20016,29,christian_conservative
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,christian_conservative,male,Christian,Conservative,Christian male with conservative ideology,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a hypothetical example for demonstration purposes. here's an example comment: ""this is the most ridiculous thing i've ever heard. y",,20048,19,christian_conservative
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,christian_conservative,male,Christian,Conservative,Christian male with conservative ideology,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i'll provide a general analysis based on the attributes.
+
+based on the attributes, the comment is neutral in sentiment (3). it does not contain an",,1645,143,christian_conservative
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,christian_conservative,male,Christian,Conservative,Christian male with conservative ideology,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i'll provide a general analysis based on the context.
+
+based on the context, the comment is likely to be neutral or respectful, as it's empty. how",,39711,86,christian_conservative

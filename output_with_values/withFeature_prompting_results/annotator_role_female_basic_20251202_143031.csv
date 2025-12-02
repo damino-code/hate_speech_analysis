@@ -1,0 +1,323 @@
+sentiment,respect,insult,humiliate,status,dehumanize,violence,genocide,attack_defend,confidence,prompt_type,annotator_profile_id,annotator_gender,annotator_description,raw_output,text,comment_id,index,profile_id
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,female_basic,female,Female annotator,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a default rating for each attribute. 
+
+default ratings:
+1. sentiment: 3
+2. respect: 2
+3. insult: 1
+4. humiliate: 1
+5. status: 2
+6. ",,41924,95,female_basic
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,female_basic,female,Female annotator,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a default response.
+
+3 2 1 1 2 1 1 1 3 0.8
+
+please note that the analysis is subjective and may vary based on individual perspectiv",,8369,15,female_basic
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,female_basic,female,Female annotator,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a general analysis based on the context of the comment section.
+
+based on the context of the comment section, i would expect the co",,28621,30,female_basic
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,female_basic,female,Female annotator,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a default response.
+
+3 2 1 1 2 1 1 1 3 0.8
+
+please note that the analysis is subjective and may vary based on individual perspectiv",,20061,158,female_basic
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,female_basic,female,Female annotator,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i'll provide a hypothetical example for demonstration purposes. here's an example comment: ""i'm so tired of people like you always ruining everyth",,21275,128,female_basic
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,female_basic,female,Female annotator,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i'll provide a default response.
+
+3 2 1 1 2 1 1 1 3 0.8
+
+please note that the analysis is subjective and may vary based on individual perspectives",,21406,115,female_basic
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,female_basic,female,Female annotator,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a general analysis based on the context of the comment being empty.
+
+based on the analysis, the comment is neutral in sentiment, re",,13674,69,female_basic
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,female_basic,female,Female annotator,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is blank, so i will provide a hypothetical example for analysis purposes. here's a revised comment: ""i'm so tired of people like you always spreading misinform",,28486,170,female_basic
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,female_basic,female,Female annotator,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a default response.
+
+3 2 1 1 2 1 1 1 3 0.8
+
+please note that the analysis is subjective and may vary based on individual perspectiv",,32127,174,female_basic
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,female_basic,female,Female annotator,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a default response.
+
+3 2 1 1 2 1 1 1 3 0.8
+
+please note that the comment is empty, so i would expect a default response. the provid",,20018,45,female_basic
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,female_basic,female,Female annotator,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i'll provide a default response.
+
+3 2 1 1 2 1 1 1 3 0.8
+
+please note that the analysis is subjective and may vary based on individual perspectives",,16493,66,female_basic
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,female_basic,female,Female annotator,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a hypothetical example of a comment that might elicit these ratings.
+
+example comment: ""this is the most ridiculous thing i've ever",,38354,182,female_basic
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,female_basic,female,Female annotator,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a default response.
+
+3 2 1 1 2 1 1 1 3 0.8
+
+please note that the comment is empty, so i would expect a default response. the provid",,20054,165,female_basic
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,female_basic,female,Female annotator,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a hypothetical example for analysis. let's assume the comment is: ""this is the worst thing i've ever seen.""
+
+ratings: 5 2 4 3 1 2 2",,31779,78,female_basic
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,female_basic,female,Female annotator,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i'll provide a default response.
+
+3 2 1 1 2 1 1 1 3 0.8
+
+please note that the analysis is subjective and may vary based on individual perspectives",,2317,186,female_basic
+3.0,2.0,3.0,2.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,female_basic,female,Female annotator,"3 2 3 2 2 1 1 1 3 0.8
+
+note: the comment is empty, so i'll provide a general analysis based on the context of the comment being empty.
+
+based on the context, i would rate the comment as neutral in ter",,48434,177,female_basic
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,female_basic,female,Female annotator,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a default response.
+
+3 2 1 1 2 1 1 1 3 0.8
+
+please note that the analysis is subjective and may vary based on individual perspectiv",,43793,56,female_basic
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,female_basic,female,Female annotator,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i'll provide a default response.
+
+3 2 1 1 2 1 1 1 3 0.8
+
+please note that the comment is empty, so the analysis is based on the context of the con",,28929,152,female_basic
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,female_basic,female,Female annotator,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a default response.
+
+3 2 1 1 2 1 1 1 3 0.8
+
+please note that the analysis is subjective and may vary based on individual perspectiv",,2952,82,female_basic
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,female_basic,female,Female annotator,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i'll provide a default response.
+
+rating: 3 2 1 1 2 1 1 1 3 0.8
+
+please note that the analysis is subjective and may vary based on individual pers",,20055,68,female_basic
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,female_basic,female,Female annotator,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so the analysis will be based on the context provided. 
+
+please note that the comment is empty, but i will provide a hypothetical example of how the ",,43442,124,female_basic
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,female_basic,female,Female annotator,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i'll provide a default response.
+
+3 2 1 1 2 1 1 1 3 0.8
+
+please note that the analysis is subjective and may vary based on individual perspectives",,20043,16,female_basic
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,female_basic,female,Female annotator,"3 2 1 1 2 1 1 1 3 0.8
+
+explanation: 
+- sentiment: the comment is neutral as it does not express any strong emotions.
+- respect: the comment is respectful as it does not contain any derogatory language",,31411,148,female_basic
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,female_basic,female,Female annotator,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i'll provide a default response.
+
+3 2 1 1 2 1 1 1 3 0.8
+
+please note that the analysis is subjective and may vary based on individual perspectives",,17157,93,female_basic
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,female_basic,female,Female annotator,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i'll provide a default response.
+
+3 2 1 1 2 1 1 1 3 0.8
+
+please note that the analysis is subjective and may vary based on individual perspectives",,8041,65,female_basic
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,female_basic,female,Female annotator,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i'll provide a default response.
+
+3 2 1 1 2 1 1 1 3 0.8
+
+please note that the analysis is subjective and may vary based on individual perspectives",,20005,60,female_basic
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,female_basic,female,Female annotator,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is blank, so i'll provide a hypothetical example for demonstration purposes. here's an example comment: ""i'm so tired of people like you always ruining everyth",,18090,84,female_basic
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,female_basic,female,Female annotator,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so the analysis will be based on the context provided. 
+
+please note that the comment is empty, but the context suggests that the user is expressing ",,20057,67,female_basic
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,female_basic,female,Female annotator,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a default response.
+
+3 2 1 1 2 1 1 1 3 0.8
+
+please note that the comment is empty, so i would expect a default response. the provid",,16178,125,female_basic
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,female_basic,female,Female annotator,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a default response.
+
+3 2 1 1 2 1 1 1 3 0.8
+
+please note that the analysis is subjective and may vary based on individual perspectiv",,20045,132,female_basic
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,female_basic,female,Female annotator,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so the analysis will be based on the context provided. 
+
+please note that the comment is empty, but i'll provide a hypothetical analysis based on the",,20070,9,female_basic
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,female_basic,female,Female annotator,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a default response.
+
+3 2 1 1 2 1 1 1 3 0.8
+
+please note that the comment is empty, so i would expect a default response. the provid",,20004,18,female_basic
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,female_basic,female,Female annotator,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a default response.
+
+3 2 1 1 2 1 1 1 3 0.8
+
+please note that the comment is empty, so i would expect a default response. the provid",,42704,55,female_basic
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,female_basic,female,Female annotator,"3 2 1 1 2 1 1 1 3 0.8
+
+explanation: 
+- sentiment: the comment is neutral as it does not express any strong emotions.
+- respect: the comment is somewhat respectful as it does not contain any derogatory",,10476,75,female_basic
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,female_basic,female,Female annotator,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so the analysis will be based on the context provided. 
+
+please provide the comment with the analysis. 
+
+comment: ""i'm not sure what's going on, but ",,6827,150,female_basic
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,female_basic,female,Female annotator,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so the analysis will be based on the context provided. 
+
+please note that the comment is empty, but i will provide a hypothetical example of how the ",,23517,104,female_basic
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,female_basic,female,Female annotator,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a default rating for each attribute. 
+
+default ratings:
+1. sentiment: 3
+2. respect: 2
+3. insult: 1
+4. humiliate: 1
+5. status: 2
+6. ",,20088,135,female_basic
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,female_basic,female,Female annotator,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a default rating for each attribute. 
+
+default ratings:
+1. sentiment: 3
+2. respect: 2
+3. insult: 1
+4. humiliate: 1
+5. status: 2
+6. ",,18346,137,female_basic
+3.0,2.0,3.0,2.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,female_basic,female,Female annotator,"3 2 3 2 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a general analysis based on the context of the comment being empty.
+
+based on the analysis, the comment is neutral in sentiment, re",,20025,164,female_basic
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,female_basic,female,Female annotator,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i'll provide a default response.
+
+rating: 3 2 1 1 2 1 1 1 3 0.8
+
+please note that the analysis is subjective and may vary based on individual pers",,2747,76,female_basic
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,female_basic,female,Female annotator,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a default response.
+
+rating: 3 2 1 1 2 1 1 1 3 0.8
+
+please note that the analysis is subjective and may vary based on individual pe",,30261,79,female_basic
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,female_basic,female,Female annotator,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so the analysis will be based on the context provided. 
+
+please note that the comment is empty, but i will provide a hypothetical example of how the ",,13734,197,female_basic
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,female_basic,female,Female annotator,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a default response. 
+
+default response:
+3 2 1 1 2 1 1 1 3 0.8
+
+please note that the analysis is subjective and may vary based on in",,34899,38,female_basic
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,female_basic,female,Female annotator,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i'll provide a default response.
+
+3 2 1 1 2 1 1 1 3 0.8
+
+please note that the analysis is subjective and may vary based on individual perspectives",,19815,24,female_basic
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,female_basic,female,Female annotator,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a default response.
+
+3 2 1 1 2 1 1 1 3 0.8
+
+please note that the analysis is subjective and may vary based on individual perspectiv",,26493,122,female_basic
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,female_basic,female,Female annotator,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i'll provide a default response.
+
+3 2 1 1 2 1 1 1 3 0.8
+
+please note that the analysis is subjective and may vary based on individual perspectives",,39511,195,female_basic
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,female_basic,female,Female annotator,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i'll provide a general analysis based on the context of the comment being empty.
+
+based on the context, i would rate the comment as neutral, as it",,20016,29,female_basic
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,female_basic,female,Female annotator,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so i will provide a default rating for each attribute. 
+
+default ratings:
+1. sentiment: 3
+2. respect: 2
+3. insult: 1
+4. humiliate: 1
+5. status: 2
+6. ",,20048,19,female_basic
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,female_basic,female,Female annotator,"3 2 1 1 2 1 1 1 3 0.8
+
+note: the comment is empty, so the analysis will be based on the context provided. 
+
+please note that the comment is empty, but i will provide a hypothetical example of how you ",,1645,143,female_basic
+3.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,3.0,0.8,annotator_role,female_basic,female,Female annotator,"3 2 1 1 2 1 1 1 3 0.8
+
+explanation:
+the comment is neutral in sentiment (3), somewhat respectful (2), not insulting (1), not humiliating (1), implies inferior status (2), not dehumanizing (1), no viol",,39711,86,female_basic
